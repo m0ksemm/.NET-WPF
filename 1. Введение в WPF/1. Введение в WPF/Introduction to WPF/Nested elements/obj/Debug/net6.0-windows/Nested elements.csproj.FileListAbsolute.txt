@@ -1,0 +1,20 @@
+E:\ШАГ\WPF\Примеры\1. Введение в WPF\Introduction to WPF\Nested elements\bin\Debug\net6.0-windows\Nested elements.exe
+E:\ШАГ\WPF\Примеры\1. Введение в WPF\Introduction to WPF\Nested elements\bin\Debug\net6.0-windows\Nested elements.deps.json
+E:\ШАГ\WPF\Примеры\1. Введение в WPF\Introduction to WPF\Nested elements\bin\Debug\net6.0-windows\Nested elements.runtimeconfig.json
+E:\ШАГ\WPF\Примеры\1. Введение в WPF\Introduction to WPF\Nested elements\bin\Debug\net6.0-windows\Nested elements.dll
+E:\ШАГ\WPF\Примеры\1. Введение в WPF\Introduction to WPF\Nested elements\bin\Debug\net6.0-windows\Nested elements.pdb
+E:\ШАГ\WPF\Примеры\1. Введение в WPF\Introduction to WPF\Nested elements\obj\Debug\net6.0-windows\Nested elements.csproj.AssemblyReference.cache
+E:\ШАГ\WPF\Примеры\1. Введение в WPF\Introduction to WPF\Nested elements\obj\Debug\net6.0-windows\MainWindow.baml
+E:\ШАГ\WPF\Примеры\1. Введение в WPF\Introduction to WPF\Nested elements\obj\Debug\net6.0-windows\MainWindow.g.cs
+E:\ШАГ\WPF\Примеры\1. Введение в WPF\Introduction to WPF\Nested elements\obj\Debug\net6.0-windows\App.g.cs
+E:\ШАГ\WPF\Примеры\1. Введение в WPF\Introduction to WPF\Nested elements\obj\Debug\net6.0-windows\Nested elements_MarkupCompile.cache
+E:\ШАГ\WPF\Примеры\1. Введение в WPF\Introduction to WPF\Nested elements\obj\Debug\net6.0-windows\Nested elements.g.resources
+E:\ШАГ\WPF\Примеры\1. Введение в WPF\Introduction to WPF\Nested elements\obj\Debug\net6.0-windows\Nested elements.GeneratedMSBuildEditorConfig.editorconfig
+E:\ШАГ\WPF\Примеры\1. Введение в WPF\Introduction to WPF\Nested elements\obj\Debug\net6.0-windows\Nested elements.AssemblyInfoInputs.cache
+E:\ШАГ\WPF\Примеры\1. Введение в WPF\Introduction to WPF\Nested elements\obj\Debug\net6.0-windows\Nested elements.AssemblyInfo.cs
+E:\ШАГ\WPF\Примеры\1. Введение в WPF\Introduction to WPF\Nested elements\obj\Debug\net6.0-windows\Nested elements.csproj.CoreCompileInputs.cache
+E:\ШАГ\WPF\Примеры\1. Введение в WPF\Introduction to WPF\Nested elements\obj\Debug\net6.0-windows\Nested elements.dll
+E:\ШАГ\WPF\Примеры\1. Введение в WPF\Introduction to WPF\Nested elements\obj\Debug\net6.0-windows\refint\Nested elements.dll
+E:\ШАГ\WPF\Примеры\1. Введение в WPF\Introduction to WPF\Nested elements\obj\Debug\net6.0-windows\Nested elements.pdb
+E:\ШАГ\WPF\Примеры\1. Введение в WPF\Introduction to WPF\Nested elements\obj\Debug\net6.0-windows\Nested elements.genruntimeconfig.cache
+E:\ШАГ\WPF\Примеры\1. Введение в WPF\Introduction to WPF\Nested elements\obj\Debug\net6.0-windows\ref\Nested elements.dll

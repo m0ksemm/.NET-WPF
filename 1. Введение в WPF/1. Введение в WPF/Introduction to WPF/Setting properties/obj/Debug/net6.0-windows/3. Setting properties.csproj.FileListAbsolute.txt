@@ -1,0 +1,40 @@
+E:\ШАГ\WPF\Примеры\1. Введение в WPF\Introduction to WPF\Setting properties\obj\Debug\net6.0-windows\3. Setting properties.csproj.AssemblyReference.cache
+E:\ШАГ\WPF\Примеры\1. Введение в WPF\Introduction to WPF\Setting properties\obj\Debug\net6.0-windows\MainWindow.baml
+E:\ШАГ\WPF\Примеры\1. Введение в WPF\Introduction to WPF\Setting properties\obj\Debug\net6.0-windows\MainWindow.g.cs
+E:\ШАГ\WPF\Примеры\1. Введение в WPF\Introduction to WPF\Setting properties\obj\Debug\net6.0-windows\App.g.cs
+E:\ШАГ\WPF\Примеры\1. Введение в WPF\Introduction to WPF\Setting properties\obj\Debug\net6.0-windows\3. Setting properties_MarkupCompile.cache
+E:\ШАГ\WPF\Примеры\1. Введение в WPF\Introduction to WPF\Setting properties\obj\Debug\net6.0-windows\3. Setting properties.g.resources
+E:\ШАГ\WPF\Примеры\1. Введение в WPF\Introduction to WPF\Setting properties\obj\Debug\net6.0-windows\3. Setting properties.GeneratedMSBuildEditorConfig.editorconfig
+E:\ШАГ\WPF\Примеры\1. Введение в WPF\Introduction to WPF\Setting properties\obj\Debug\net6.0-windows\3. Setting properties.AssemblyInfoInputs.cache
+E:\ШАГ\WPF\Примеры\1. Введение в WPF\Introduction to WPF\Setting properties\obj\Debug\net6.0-windows\3. Setting properties.AssemblyInfo.cs
+E:\ШАГ\WPF\Примеры\1. Введение в WPF\Introduction to WPF\Setting properties\obj\Debug\net6.0-windows\3. Setting properties.csproj.CoreCompileInputs.cache
+E:\ШАГ\WPF\Примеры\1. Введение в WPF\Introduction to WPF\Setting properties\bin\Debug\net6.0-windows\3. Setting properties.exe
+E:\ШАГ\WPF\Примеры\1. Введение в WPF\Introduction to WPF\Setting properties\bin\Debug\net6.0-windows\3. Setting properties.deps.json
+E:\ШАГ\WPF\Примеры\1. Введение в WPF\Introduction to WPF\Setting properties\bin\Debug\net6.0-windows\3. Setting properties.runtimeconfig.json
+E:\ШАГ\WPF\Примеры\1. Введение в WPF\Introduction to WPF\Setting properties\bin\Debug\net6.0-windows\3. Setting properties.dll
+E:\ШАГ\WPF\Примеры\1. Введение в WPF\Introduction to WPF\Setting properties\bin\Debug\net6.0-windows\3. Setting properties.pdb
+E:\ШАГ\WPF\Примеры\1. Введение в WPF\Introduction to WPF\Setting properties\obj\Debug\net6.0-windows\3. Setting properties.dll
+E:\ШАГ\WPF\Примеры\1. Введение в WPF\Introduction to WPF\Setting properties\obj\Debug\net6.0-windows\refint\3. Setting properties.dll
+E:\ШАГ\WPF\Примеры\1. Введение в WPF\Introduction to WPF\Setting properties\obj\Debug\net6.0-windows\3. Setting properties.pdb
+E:\ШАГ\WPF\Примеры\1. Введение в WPF\Introduction to WPF\Setting properties\obj\Debug\net6.0-windows\3. Setting properties.genruntimeconfig.cache
+E:\ШАГ\WPF\Примеры\1. Введение в WPF\Introduction to WPF\Setting properties\obj\Debug\net6.0-windows\ref\3. Setting properties.dll
+C:\Users\Admin\Desktop\1. Введение в WPF\1. Введение в WPF\Introduction to WPF\Setting properties\bin\Debug\net6.0-windows\3. Setting properties.exe
+C:\Users\Admin\Desktop\1. Введение в WPF\1. Введение в WPF\Introduction to WPF\Setting properties\bin\Debug\net6.0-windows\3. Setting properties.deps.json
+C:\Users\Admin\Desktop\1. Введение в WPF\1. Введение в WPF\Introduction to WPF\Setting properties\bin\Debug\net6.0-windows\3. Setting properties.runtimeconfig.json
+C:\Users\Admin\Desktop\1. Введение в WPF\1. Введение в WPF\Introduction to WPF\Setting properties\bin\Debug\net6.0-windows\3. Setting properties.dll
+C:\Users\Admin\Desktop\1. Введение в WPF\1. Введение в WPF\Introduction to WPF\Setting properties\bin\Debug\net6.0-windows\3. Setting properties.pdb
+C:\Users\Admin\Desktop\1. Введение в WPF\1. Введение в WPF\Introduction to WPF\Setting properties\obj\Debug\net6.0-windows\3. Setting properties.csproj.AssemblyReference.cache
+C:\Users\Admin\Desktop\1. Введение в WPF\1. Введение в WPF\Introduction to WPF\Setting properties\obj\Debug\net6.0-windows\MainWindow.baml
+C:\Users\Admin\Desktop\1. Введение в WPF\1. Введение в WPF\Introduction to WPF\Setting properties\obj\Debug\net6.0-windows\MainWindow.g.cs
+C:\Users\Admin\Desktop\1. Введение в WPF\1. Введение в WPF\Introduction to WPF\Setting properties\obj\Debug\net6.0-windows\App.g.cs
+C:\Users\Admin\Desktop\1. Введение в WPF\1. Введение в WPF\Introduction to WPF\Setting properties\obj\Debug\net6.0-windows\3. Setting properties_MarkupCompile.cache
+C:\Users\Admin\Desktop\1. Введение в WPF\1. Введение в WPF\Introduction to WPF\Setting properties\obj\Debug\net6.0-windows\3. Setting properties.g.resources
+C:\Users\Admin\Desktop\1. Введение в WPF\1. Введение в WPF\Introduction to WPF\Setting properties\obj\Debug\net6.0-windows\3. Setting properties.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\Desktop\1. Введение в WPF\1. Введение в WPF\Introduction to WPF\Setting properties\obj\Debug\net6.0-windows\3. Setting properties.AssemblyInfoInputs.cache
+C:\Users\Admin\Desktop\1. Введение в WPF\1. Введение в WPF\Introduction to WPF\Setting properties\obj\Debug\net6.0-windows\3. Setting properties.AssemblyInfo.cs
+C:\Users\Admin\Desktop\1. Введение в WPF\1. Введение в WPF\Introduction to WPF\Setting properties\obj\Debug\net6.0-windows\3. Setting properties.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\1. Введение в WPF\1. Введение в WPF\Introduction to WPF\Setting properties\obj\Debug\net6.0-windows\3. Setting properties.dll
+C:\Users\Admin\Desktop\1. Введение в WPF\1. Введение в WPF\Introduction to WPF\Setting properties\obj\Debug\net6.0-windows\refint\3. Setting properties.dll
+C:\Users\Admin\Desktop\1. Введение в WPF\1. Введение в WPF\Introduction to WPF\Setting properties\obj\Debug\net6.0-windows\3. Setting properties.pdb
+C:\Users\Admin\Desktop\1. Введение в WPF\1. Введение в WPF\Introduction to WPF\Setting properties\obj\Debug\net6.0-windows\3. Setting properties.genruntimeconfig.cache
+C:\Users\Admin\Desktop\1. Введение в WPF\1. Введение в WPF\Introduction to WPF\Setting properties\obj\Debug\net6.0-windows\ref\3. Setting properties.dll
