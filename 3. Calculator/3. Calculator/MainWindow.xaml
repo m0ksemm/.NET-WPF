@@ -1,0 +1,54 @@
+﻿<Window x:Class="_3._Calculator.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:_3._Calculator"
+        mc:Ignorable="d"
+        Title="Calculator" Height="600" Width="600" MinWidth="255" MinHeight="460">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="0.75*" MinHeight="60"></RowDefinition>
+            <RowDefinition Height="*" MinHeight="60"></RowDefinition>
+            <RowDefinition Height="*" MinHeight="60"></RowDefinition>
+            <RowDefinition Height="*" MinHeight="60"></RowDefinition>
+            <RowDefinition Height="*" MinHeight="60"></RowDefinition>
+            <RowDefinition Height="*" MinHeight="60"></RowDefinition>
+            <RowDefinition Height="*" MinHeight="60"></RowDefinition>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition MinWidth="60"></ColumnDefinition>
+            <ColumnDefinition MinWidth="60"></ColumnDefinition>
+            <ColumnDefinition MinWidth="60"></ColumnDefinition>
+            <ColumnDefinition MinWidth="60"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+
+        <TextBox Margin="4,4,4,1" Grid.ColumnSpan="4" TextAlignment="Right" Foreground="Gray" FontSize ="28" IsReadOnly="True" Name="textbox1" Background="#FFDDDDDD"></TextBox>
+        <TextBox Margin="4,4,4,1" Grid.Row="1" Grid.ColumnSpan="4" TextAlignment="Right" FontWeight="Bold" FontSize ="55" Padding="0,-10,0,0" IsReadOnly="True" Name="textbox2" Background="White">0</TextBox>
+
+        <Button Grid.Row="2" Grid.Column="0" FontSize ="45" Margin="4,2,2,4" Padding="0,-5,0,0" Click="cmdRedo" Background="#FFDCBA84"> CE </Button>
+        <Button Grid.Row="2" Grid.Column="1" FontSize ="45" Margin="2,2,2,4" Padding="0,-5,0,0" Click="cmdС" Background="#FFDCBA84"> C </Button>
+        <Button Grid.Row="2" Grid.Column="2" FontSize ="45" Margin="2,2,2,4" Padding="0,-5,0,0" Click="cmdBack" Background="#FFDCBA84"> &lt; </Button>
+        <Button Grid.Row="2" Grid.Column="3" FontSize ="45" Margin="2,2,4,4" Padding="0,-5,0,0" Click="cmdOperation" Name ="buttonDevide" Background="#FFA5AFE2">/</Button>
+
+        <Button Grid.Row="3" Grid.Column="0" FontSize ="45" Margin="4,2,2,4" Padding="0,-5,0,0" Click="cmdEnter" Name ="button7">7</Button>
+        <Button Grid.Row="3" Grid.Column="1" FontSize ="45" Margin="2,2,2,4" Padding="0,-5,0,0" Click="cmdEnter" Name ="button8">8</Button>
+        <Button Grid.Row="3" Grid.Column="2" FontSize ="45" Margin="2,2,2,4" Padding="0,-5,0,0" Click="cmdEnter" Name ="button9">9</Button>
+        <Button Grid.Row="3" Grid.Column="3" FontSize ="45" Margin="2,2,4,4" Padding="0,-5,0,0" Click="cmdOperation" Name ="buttonMultiply" Background="#FFA5AFE2">*</Button>
+
+        <Button Grid.Row="4" Grid.Column="0" FontSize ="45" Margin="4,2,2,4" Padding="0,-5,0,0" Click="cmdEnter" Name ="button4">4</Button>
+        <Button Grid.Row="4" Grid.Column="1" FontSize ="45" Margin="2,2,2,4" Padding="0,-5,0,0" Click="cmdEnter" Name ="button5">5</Button>
+        <Button Grid.Row="4" Grid.Column="2" FontSize ="45" Margin="2,2,2,4" Padding="0,-5,0,0" Click="cmdEnter" Name ="button6">6</Button>
+        <Button Grid.Row="4" Grid.Column="3" FontSize ="45" Margin="2,2,4,4" Padding="0,-5,0,0"  Click="cmdOperation" Name ="buttonMinus" Background="#FFA5AFE2">-</Button>
+
+        <Button Grid.Row="5" Grid.Column="0" FontSize ="45" Margin="4,2,2,4" Padding="0,-5,0,0" Click="cmdEnter" Name ="button1">1</Button>
+        <Button Grid.Row="5" Grid.Column="1" FontSize ="45" Margin="2,2,2,4" Padding="0,-5,0,0" Click="cmdEnter" Name ="button2">2</Button>
+        <Button Grid.Row="5" Grid.Column="2" FontSize ="45" Margin="2,2,2,4" Padding="0,-5,0,0" Click="cmdEnter" Name ="button3">3</Button>
+        <Button Grid.Row="5" Grid.Column="3" FontSize ="45" Margin="2,2,4,4" Padding="0,-5,0,0" Click="cmdOperation" Name ="buttonPlus" Background="#FFA5AFE2">+</Button>
+
+        <Button Grid.Row="6" Grid.Column="0" FontSize ="45" Margin="4,2,2,4" Padding="0,-5,0,0" Click="cmdEnterPoint" Background="#FFA5AFE2">.</Button>
+        <Button Grid.Row="6" Grid.Column="1" FontSize ="45" Margin="2,2,2,4" Padding="0,-5,0,0" Click="cmdEnterZero" Name ="button0">0</Button>
+        <Button Grid.Row="6" Grid.Column="2" Grid.ColumnSpan="2" FontSize ="45" Margin="2,2,4,4" Padding="0,-5,0,0" Click="cmdResult" Background="#FFA5AFE2">=</Button>
+
+    </Grid>
+</Window>
