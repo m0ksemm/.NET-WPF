@@ -1,0 +1,22 @@
+C:\Users\User\Desktop\4. Colors WPF\4. Colors WPF\bin\Debug\net6.0-windows\4. Colors WPF.exe
+C:\Users\User\Desktop\4. Colors WPF\4. Colors WPF\bin\Debug\net6.0-windows\4. Colors WPF.deps.json
+C:\Users\User\Desktop\4. Colors WPF\4. Colors WPF\bin\Debug\net6.0-windows\4. Colors WPF.runtimeconfig.json
+C:\Users\User\Desktop\4. Colors WPF\4. Colors WPF\bin\Debug\net6.0-windows\4. Colors WPF.dll
+C:\Users\User\Desktop\4. Colors WPF\4. Colors WPF\bin\Debug\net6.0-windows\4. Colors WPF.pdb
+C:\Users\User\Desktop\4. Colors WPF\4. Colors WPF\obj\Debug\net6.0-windows\4. Colors WPF.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\4. Colors WPF\4. Colors WPF\obj\Debug\net6.0-windows\MainWindow.g.cs
+C:\Users\User\Desktop\4. Colors WPF\4. Colors WPF\obj\Debug\net6.0-windows\App.g.cs
+C:\Users\User\Desktop\4. Colors WPF\4. Colors WPF\obj\Debug\net6.0-windows\4. Colors WPF_MarkupCompile.cache
+C:\Users\User\Desktop\4. Colors WPF\4. Colors WPF\obj\Debug\net6.0-windows\4. Colors WPF_MarkupCompile.lref
+C:\Users\User\Desktop\4. Colors WPF\4. Colors WPF\obj\Debug\net6.0-windows\MainWindow.baml
+C:\Users\User\Desktop\4. Colors WPF\4. Colors WPF\obj\Debug\net6.0-windows\4. Colors WPF.g.resources
+C:\Users\User\Desktop\4. Colors WPF\4. Colors WPF\obj\Debug\net6.0-windows\4. Colors WPF.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Desktop\4. Colors WPF\4. Colors WPF\obj\Debug\net6.0-windows\4. Colors WPF.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\4. Colors WPF\4. Colors WPF\obj\Debug\net6.0-windows\4. Colors WPF.AssemblyInfo.cs
+C:\Users\User\Desktop\4. Colors WPF\4. Colors WPF\obj\Debug\net6.0-windows\4. Colors WPF.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\4. Colors WPF\4. Colors WPF\obj\Debug\net6.0-windows\4. Colors WPF.dll
+C:\Users\User\Desktop\4. Colors WPF\4. Colors WPF\obj\Debug\net6.0-windows\refint\4. Colors WPF.dll
+C:\Users\User\Desktop\4. Colors WPF\4. Colors WPF\obj\Debug\net6.0-windows\4. Colors WPF.pdb
+C:\Users\User\Desktop\4. Colors WPF\4. Colors WPF\obj\Debug\net6.0-windows\4. Colors WPF.genruntimeconfig.cache
+C:\Users\User\Desktop\4. Colors WPF\4. Colors WPF\obj\Debug\net6.0-windows\ref\4. Colors WPF.dll
+C:\Users\User\Desktop\4. Colors WPF\4. Colors WPF\obj\Debug\net6.0-windows\GeneratedInternalTypeHelper.g.cs
