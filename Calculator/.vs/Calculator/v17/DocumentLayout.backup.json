@@ -1,14 +1,18 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\MAX\\Desktop\\Calculator\\",
+  "WorkspaceRootPath": "C:\\Users\\MAX\\Desktop\\Dev\\.NET-WPF\\Calculator\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{687FF816-EC58-4281-8A67-A2973BC59B74}|Calculator\\Calculator.csproj|c:\\users\\max\\desktop\\calculator\\calculator\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{687FF816-EC58-4281-8A67-A2973BC59B74}|Calculator\\Calculator.csproj|solutionrelative:calculator\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{687FF816-EC58-4281-8A67-A2973BC59B74}|Calculator\\Calculator.csproj|c:\\users\\max\\desktop\\dev\\.net-wpf\\calculator\\calculator\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{687FF816-EC58-4281-8A67-A2973BC59B74}|Calculator\\Calculator.csproj|solutionrelative:calculator\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{687FF816-EC58-4281-8A67-A2973BC59B74}|Calculator\\Calculator.csproj|c:\\users\\max\\desktop\\calculator\\calculator\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{687FF816-EC58-4281-8A67-A2973BC59B74}|Calculator\\Calculator.csproj|solutionrelative:calculator\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{687FF816-EC58-4281-8A67-A2973BC59B74}|Calculator\\Calculator.csproj|c:\\users\\max\\desktop\\dev\\.net-wpf\\calculator\\calculator\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{687FF816-EC58-4281-8A67-A2973BC59B74}|Calculator\\Calculator.csproj|solutionrelative:calculator\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{687FF816-EC58-4281-8A67-A2973BC59B74}|Calculator\\Calculator.csproj|c:\\users\\max\\desktop\\dev\\.net-wpf\\calculator\\calculator\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{687FF816-EC58-4281-8A67-A2973BC59B74}|Calculator\\Calculator.csproj|solutionrelative:calculator\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,31 +22,43 @@
       "DocumentGroups": [
         {
           "DockedWidth": 302,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "MainWindow.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\MAX\\Desktop\\Calculator\\Calculator\\MainWindow.xaml.cs",
-              "RelativeDocumentMoniker": "Calculator\\MainWindow.xaml.cs",
-              "ToolTip": "C:\\Users\\MAX\\Desktop\\Calculator\\Calculator\\MainWindow.xaml.cs*",
-              "RelativeToolTip": "Calculator\\MainWindow.xaml.cs*",
-              "ViewState": "AgIAAD4AAAAAAAAAAAD4v1EAAAAbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-05T12:22:44.824Z",
+              "DocumentIndex": 1,
+              "Title": "App.xaml",
+              "DocumentMoniker": "C:\\Users\\MAX\\Desktop\\Dev\\.NET-WPF\\Calculator\\Calculator\\App.xaml",
+              "RelativeDocumentMoniker": "Calculator\\App.xaml",
+              "ToolTip": "C:\\Users\\MAX\\Desktop\\Dev\\.NET-WPF\\Calculator\\Calculator\\App.xaml",
+              "RelativeToolTip": "Calculator\\App.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-08-06T18:46:20.406Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "MainWindow.xaml",
-              "DocumentMoniker": "C:\\Users\\MAX\\Desktop\\Calculator\\Calculator\\MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\MAX\\Desktop\\Dev\\.NET-WPF\\Calculator\\Calculator\\MainWindow.xaml",
               "RelativeDocumentMoniker": "Calculator\\MainWindow.xaml",
-              "ToolTip": "C:\\Users\\MAX\\Desktop\\Calculator\\Calculator\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\MAX\\Desktop\\Dev\\.NET-WPF\\Calculator\\Calculator\\MainWindow.xaml",
               "RelativeToolTip": "Calculator\\MainWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2025-08-05T12:21:07.23Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\MAX\\Desktop\\Dev\\.NET-WPF\\Calculator\\Calculator\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "Calculator\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\MAX\\Desktop\\Dev\\.NET-WPF\\Calculator\\Calculator\\MainWindow.xaml.cs",
+              "RelativeToolTip": "Calculator\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAD4AAAAAAAAAAAD4v1EAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-05T12:22:44.824Z",
               "EditorCaption": ""
             }
           ]

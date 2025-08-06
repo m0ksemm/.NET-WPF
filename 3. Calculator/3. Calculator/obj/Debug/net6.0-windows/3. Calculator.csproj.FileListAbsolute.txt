@@ -61,3 +61,24 @@ C:\Users\User\Desktop\3. Calculator\3. Calculator\obj\Debug\net6.0-windows\refin
 C:\Users\User\Desktop\3. Calculator\3. Calculator\obj\Debug\net6.0-windows\3. Calculator.pdb
 C:\Users\User\Desktop\3. Calculator\3. Calculator\obj\Debug\net6.0-windows\3. Calculator.genruntimeconfig.cache
 C:\Users\User\Desktop\3. Calculator\3. Calculator\obj\Debug\net6.0-windows\ref\3. Calculator.dll
+C:\Users\MAX\Desktop\Dev\.NET-WPF\3. Calculator\3. Calculator\bin\Debug\net6.0-windows\3. Calculator.exe
+C:\Users\MAX\Desktop\Dev\.NET-WPF\3. Calculator\3. Calculator\bin\Debug\net6.0-windows\3. Calculator.deps.json
+C:\Users\MAX\Desktop\Dev\.NET-WPF\3. Calculator\3. Calculator\bin\Debug\net6.0-windows\3. Calculator.runtimeconfig.json
+C:\Users\MAX\Desktop\Dev\.NET-WPF\3. Calculator\3. Calculator\bin\Debug\net6.0-windows\3. Calculator.dll
+C:\Users\MAX\Desktop\Dev\.NET-WPF\3. Calculator\3. Calculator\bin\Debug\net6.0-windows\3. Calculator.pdb
+C:\Users\MAX\Desktop\Dev\.NET-WPF\3. Calculator\3. Calculator\obj\Debug\net6.0-windows\MainWindow.g.cs
+C:\Users\MAX\Desktop\Dev\.NET-WPF\3. Calculator\3. Calculator\obj\Debug\net6.0-windows\App.g.cs
+C:\Users\MAX\Desktop\Dev\.NET-WPF\3. Calculator\3. Calculator\obj\Debug\net6.0-windows\3. Calculator_MarkupCompile.cache
+C:\Users\MAX\Desktop\Dev\.NET-WPF\3. Calculator\3. Calculator\obj\Debug\net6.0-windows\3. Calculator_MarkupCompile.lref
+C:\Users\MAX\Desktop\Dev\.NET-WPF\3. Calculator\3. Calculator\obj\Debug\net6.0-windows\MainWindow.baml
+C:\Users\MAX\Desktop\Dev\.NET-WPF\3. Calculator\3. Calculator\obj\Debug\net6.0-windows\3. Calculator.g.resources
+C:\Users\MAX\Desktop\Dev\.NET-WPF\3. Calculator\3. Calculator\obj\Debug\net6.0-windows\3. Calculator.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\MAX\Desktop\Dev\.NET-WPF\3. Calculator\3. Calculator\obj\Debug\net6.0-windows\3. Calculator.AssemblyInfoInputs.cache
+C:\Users\MAX\Desktop\Dev\.NET-WPF\3. Calculator\3. Calculator\obj\Debug\net6.0-windows\3. Calculator.AssemblyInfo.cs
+C:\Users\MAX\Desktop\Dev\.NET-WPF\3. Calculator\3. Calculator\obj\Debug\net6.0-windows\3. Calculator.csproj.CoreCompileInputs.cache
+C:\Users\MAX\Desktop\Dev\.NET-WPF\3. Calculator\3. Calculator\obj\Debug\net6.0-windows\3. Calculator.sourcelink.json
+C:\Users\MAX\Desktop\Dev\.NET-WPF\3. Calculator\3. Calculator\obj\Debug\net6.0-windows\3. Calculator.dll
+C:\Users\MAX\Desktop\Dev\.NET-WPF\3. Calculator\3. Calculator\obj\Debug\net6.0-windows\refint\3. Calculator.dll
+C:\Users\MAX\Desktop\Dev\.NET-WPF\3. Calculator\3. Calculator\obj\Debug\net6.0-windows\3. Calculator.pdb
+C:\Users\MAX\Desktop\Dev\.NET-WPF\3. Calculator\3. Calculator\obj\Debug\net6.0-windows\3. Calculator.genruntimeconfig.cache
+C:\Users\MAX\Desktop\Dev\.NET-WPF\3. Calculator\3. Calculator\obj\Debug\net6.0-windows\ref\3. Calculator.dll
