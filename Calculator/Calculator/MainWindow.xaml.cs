@@ -23,10 +23,12 @@ namespace Calculator
             InitializeComponent();
 
             acButton.Click += AcButton_Click;
+            CButton.Click += CButton_Click;
             negativeButton.Click += NegativeButton_Click;
-            percentageButton.Click += PercentageButton_Click;
             equalButton.Click += EqualButton_Click;
         }
+
+        
 
         private void EqualButton_Click(object sender, RoutedEventArgs e)
         {
@@ -53,25 +55,28 @@ namespace Calculator
             }
         }
 
-        private void PercentageButton_Click(object sender, RoutedEventArgs e)
-        {
-            double tempNumber;
-            if (double.TryParse(resultLabel.Content.ToString(), out tempNumber))
-            {
-                tempNumber = tempNumber / 100;
-                if (lastNumber != 0)
-                    tempNumber *= lastNumber;
-                resultLabel.Content = tempNumber.ToString();
-            }
-
-        }
-
         private void NegativeButton_Click(object sender, RoutedEventArgs e)
         {
             if (double.TryParse(resultLabel.Content.ToString(), out lastNumber)) 
             {
                 lastNumber = lastNumber * -1;
                 resultLabel.Content = lastNumber.ToString();
+            }
+        }
+
+        private void CButton_Click(object sender, RoutedEventArgs e)
+        {
+            string currentNumber = resultLabel.Content.ToString()!;
+
+            if (currentNumber.Length == 1)
+            {
+                resultLabel.Content = "0";
+                lastNumber = 0;
+            }
+            else
+            {
+                resultLabel.Content = currentNumber.Substring(0, currentNumber.Length - 1);
+                lastNumber = lastNumber / 10;
             }
         }
 
