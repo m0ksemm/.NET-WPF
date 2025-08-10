@@ -3,20 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\MAX\\Desktop\\Dev\\.NET-WPF\\DesktopContactsApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B36DE13B-BC35-457F-ABE3-EE096241E280}|DesktopContactsApp\\DesktopContactsApp.csproj|c:\\users\\max\\desktop\\dev\\.net-wpf\\desktopcontactsapp\\desktopcontactsapp\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{B36DE13B-BC35-457F-ABE3-EE096241E280}|DesktopContactsApp\\DesktopContactsApp.csproj|solutionrelative:desktopcontactsapp\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B36DE13B-BC35-457F-ABE3-EE096241E280}|DesktopContactsApp\\DesktopContactsApp.csproj|c:\\users\\max\\desktop\\dev\\.net-wpf\\desktopcontactsapp\\desktopcontactsapp\\contactdetailswindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{B36DE13B-BC35-457F-ABE3-EE096241E280}|DesktopContactsApp\\DesktopContactsApp.csproj|solutionrelative:desktopcontactsapp\\contactdetailswindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B36DE13B-BC35-457F-ABE3-EE096241E280}|DesktopContactsApp\\DesktopContactsApp.csproj|c:\\users\\max\\desktop\\dev\\.net-wpf\\desktopcontactsapp\\desktopcontactsapp\\newcontactwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{B36DE13B-BC35-457F-ABE3-EE096241E280}|DesktopContactsApp\\DesktopContactsApp.csproj|solutionrelative:desktopcontactsapp\\newcontactwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B36DE13B-BC35-457F-ABE3-EE096241E280}|DesktopContactsApp\\DesktopContactsApp.csproj|c:\\users\\max\\desktop\\dev\\.net-wpf\\desktopcontactsapp\\desktopcontactsapp\\contactdetailswindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B36DE13B-BC35-457F-ABE3-EE096241E280}|DesktopContactsApp\\DesktopContactsApp.csproj|solutionrelative:desktopcontactsapp\\contactdetailswindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B36DE13B-BC35-457F-ABE3-EE096241E280}|DesktopContactsApp\\DesktopContactsApp.csproj|c:\\users\\max\\desktop\\dev\\.net-wpf\\desktopcontactsapp\\desktopcontactsapp\\controls\\contactcontrol.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B36DE13B-BC35-457F-ABE3-EE096241E280}|DesktopContactsApp\\DesktopContactsApp.csproj|solutionrelative:desktopcontactsapp\\controls\\contactcontrol.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B36DE13B-BC35-457F-ABE3-EE096241E280}|DesktopContactsApp\\DesktopContactsApp.csproj|c:\\users\\max\\desktop\\dev\\.net-wpf\\desktopcontactsapp\\desktopcontactsapp\\newcontactwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -27,20 +15,28 @@
       "RelativeMoniker": "D:0:0:{B36DE13B-BC35-457F-ABE3-EE096241E280}|DesktopContactsApp\\DesktopContactsApp.csproj|solutionrelative:desktopcontactsapp\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B36DE13B-BC35-457F-ABE3-EE096241E280}|DesktopContactsApp\\DesktopContactsApp.csproj|c:\\users\\max\\desktop\\dev\\.net-wpf\\desktopcontactsapp\\desktopcontactsapp\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B36DE13B-BC35-457F-ABE3-EE096241E280}|DesktopContactsApp\\DesktopContactsApp.csproj|solutionrelative:desktopcontactsapp\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B36DE13B-BC35-457F-ABE3-EE096241E280}|DesktopContactsApp\\DesktopContactsApp.csproj|c:\\users\\max\\desktop\\dev\\.net-wpf\\desktopcontactsapp\\desktopcontactsapp\\newcontactwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{B36DE13B-BC35-457F-ABE3-EE096241E280}|DesktopContactsApp\\DesktopContactsApp.csproj|solutionrelative:desktopcontactsapp\\newcontactwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B36DE13B-BC35-457F-ABE3-EE096241E280}|DesktopContactsApp\\DesktopContactsApp.csproj|c:\\users\\max\\desktop\\dev\\.net-wpf\\desktopcontactsapp\\desktopcontactsapp\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{B36DE13B-BC35-457F-ABE3-EE096241E280}|DesktopContactsApp\\DesktopContactsApp.csproj|solutionrelative:desktopcontactsapp\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B36DE13B-BC35-457F-ABE3-EE096241E280}|DesktopContactsApp\\DesktopContactsApp.csproj|c:\\users\\max\\desktop\\dev\\.net-wpf\\desktopcontactsapp\\desktopcontactsapp\\classes\\contact.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B36DE13B-BC35-457F-ABE3-EE096241E280}|DesktopContactsApp\\DesktopContactsApp.csproj|solutionrelative:desktopcontactsapp\\classes\\contact.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B36DE13B-BC35-457F-ABE3-EE096241E280}|DesktopContactsApp\\DesktopContactsApp.csproj|c:\\users\\max\\desktop\\dev\\.net-wpf\\desktopcontactsapp\\desktopcontactsapp\\controls\\contactcontrol.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B36DE13B-BC35-457F-ABE3-EE096241E280}|DesktopContactsApp\\DesktopContactsApp.csproj|solutionrelative:desktopcontactsapp\\controls\\contactcontrol.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B36DE13B-BC35-457F-ABE3-EE096241E280}|DesktopContactsApp\\DesktopContactsApp.csproj|c:\\users\\max\\desktop\\dev\\.net-wpf\\desktopcontactsapp\\desktopcontactsapp\\contactdetailswindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{B36DE13B-BC35-457F-ABE3-EE096241E280}|DesktopContactsApp\\DesktopContactsApp.csproj|solutionrelative:desktopcontactsapp\\contactdetailswindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B36DE13B-BC35-457F-ABE3-EE096241E280}|DesktopContactsApp\\DesktopContactsApp.csproj|c:\\users\\max\\desktop\\dev\\.net-wpf\\desktopcontactsapp\\desktopcontactsapp\\controls\\contactcontrol.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{B36DE13B-BC35-457F-ABE3-EE096241E280}|DesktopContactsApp\\DesktopContactsApp.csproj|solutionrelative:desktopcontactsapp\\controls\\contactcontrol.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B36DE13B-BC35-457F-ABE3-EE096241E280}|DesktopContactsApp\\DesktopContactsApp.csproj|c:\\users\\max\\desktop\\dev\\.net-wpf\\desktopcontactsapp\\desktopcontactsapp\\contactdetailswindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B36DE13B-BC35-457F-ABE3-EE096241E280}|DesktopContactsApp\\DesktopContactsApp.csproj|solutionrelative:desktopcontactsapp\\contactdetailswindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -50,36 +46,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 302,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 8,
-              "Title": "ContactControl.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\MAX\\Desktop\\Dev\\.NET-WPF\\DesktopContactsApp\\DesktopContactsApp\\Controls\\ContactControl.xaml.cs",
-              "RelativeDocumentMoniker": "DesktopContactsApp\\Controls\\ContactControl.xaml.cs",
-              "ToolTip": "C:\\Users\\MAX\\Desktop\\Dev\\.NET-WPF\\DesktopContactsApp\\DesktopContactsApp\\Controls\\ContactControl.xaml.cs",
-              "RelativeToolTip": "DesktopContactsApp\\Controls\\ContactControl.xaml.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAAwCwAAABKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-08T16:58:51.598Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "ContactControl.xaml",
-              "DocumentMoniker": "C:\\Users\\MAX\\Desktop\\Dev\\.NET-WPF\\DesktopContactsApp\\DesktopContactsApp\\Controls\\ContactControl.xaml",
-              "RelativeDocumentMoniker": "DesktopContactsApp\\Controls\\ContactControl.xaml",
-              "ToolTip": "C:\\Users\\MAX\\Desktop\\Dev\\.NET-WPF\\DesktopContactsApp\\DesktopContactsApp\\Controls\\ContactControl.xaml",
-              "RelativeToolTip": "DesktopContactsApp\\Controls\\ContactControl.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-08-08T16:54:49.646Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
               "Title": "ContactDetailsWindow.xaml.cs",
               "DocumentMoniker": "C:\\Users\\MAX\\Desktop\\Dev\\.NET-WPF\\DesktopContactsApp\\DesktopContactsApp\\ContactDetailsWindow.xaml.cs",
               "RelativeDocumentMoniker": "DesktopContactsApp\\ContactDetailsWindow.xaml.cs",
@@ -87,12 +58,92 @@
               "RelativeToolTip": "DesktopContactsApp\\ContactDetailsWindow.xaml.cs",
               "ViewState": "AgIAAA0AAAAAAAAAAAAwwB0AAABGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-08T15:15:17.56Z",
+              "WhenOpened": "2025-08-08T15:15:17.56Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ContactControl.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\MAX\\Desktop\\Dev\\.NET-WPF\\DesktopContactsApp\\DesktopContactsApp\\Controls\\ContactControl.xaml.cs",
+              "RelativeDocumentMoniker": "DesktopContactsApp\\Controls\\ContactControl.xaml.cs",
+              "ToolTip": "C:\\Users\\MAX\\Desktop\\Dev\\.NET-WPF\\DesktopContactsApp\\DesktopContactsApp\\Controls\\ContactControl.xaml.cs",
+              "RelativeToolTip": "DesktopContactsApp\\Controls\\ContactControl.xaml.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAgwCwAAABKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-08T16:58:51.598Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "NewContactWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\MAX\\Desktop\\Dev\\.NET-WPF\\DesktopContactsApp\\DesktopContactsApp\\NewContactWindow.xaml.cs",
+              "RelativeDocumentMoniker": "DesktopContactsApp\\NewContactWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\MAX\\Desktop\\Dev\\.NET-WPF\\DesktopContactsApp\\DesktopContactsApp\\NewContactWindow.xaml.cs",
+              "RelativeToolTip": "DesktopContactsApp\\NewContactWindow.xaml.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAQwBwAAABGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-07T12:19:28.715Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\MAX\\Desktop\\Dev\\.NET-WPF\\DesktopContactsApp\\DesktopContactsApp\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "DesktopContactsApp\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\MAX\\Desktop\\Dev\\.NET-WPF\\DesktopContactsApp\\DesktopContactsApp\\MainWindow.xaml.cs",
+              "RelativeToolTip": "DesktopContactsApp\\MainWindow.xaml.cs",
+              "ViewState": "AgIAADoAAAAAAAAAAAD4vxgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-07T12:10:18.492Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 7,
+              "Title": "ContactControl.xaml",
+              "DocumentMoniker": "C:\\Users\\MAX\\Desktop\\Dev\\.NET-WPF\\DesktopContactsApp\\DesktopContactsApp\\Controls\\ContactControl.xaml",
+              "RelativeDocumentMoniker": "DesktopContactsApp\\Controls\\ContactControl.xaml",
+              "ToolTip": "C:\\Users\\MAX\\Desktop\\Dev\\.NET-WPF\\DesktopContactsApp\\DesktopContactsApp\\Controls\\ContactControl.xaml",
+              "RelativeToolTip": "DesktopContactsApp\\Controls\\ContactControl.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-08-08T16:54:49.646Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ContactDetailsWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\MAX\\Desktop\\Dev\\.NET-WPF\\DesktopContactsApp\\DesktopContactsApp\\ContactDetailsWindow.xaml",
+              "RelativeDocumentMoniker": "DesktopContactsApp\\ContactDetailsWindow.xaml",
+              "ToolTip": "C:\\Users\\MAX\\Desktop\\Dev\\.NET-WPF\\DesktopContactsApp\\DesktopContactsApp\\ContactDetailsWindow.xaml",
+              "RelativeToolTip": "DesktopContactsApp\\ContactDetailsWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-08-08T15:12:05.303Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "NewContactWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\MAX\\Desktop\\Dev\\.NET-WPF\\DesktopContactsApp\\DesktopContactsApp\\NewContactWindow.xaml",
+              "RelativeDocumentMoniker": "DesktopContactsApp\\NewContactWindow.xaml",
+              "ToolTip": "C:\\Users\\MAX\\Desktop\\Dev\\.NET-WPF\\DesktopContactsApp\\DesktopContactsApp\\NewContactWindow.xaml",
+              "RelativeToolTip": "DesktopContactsApp\\NewContactWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-08-07T12:14:41.779Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\MAX\\Desktop\\Dev\\.NET-WPF\\DesktopContactsApp\\DesktopContactsApp\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "DesktopContactsApp\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\MAX\\Desktop\\Dev\\.NET-WPF\\DesktopContactsApp\\DesktopContactsApp\\MainWindow.xaml",
+              "RelativeToolTip": "DesktopContactsApp\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-08-07T12:10:19.81Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "Contact.cs",
               "DocumentMoniker": "C:\\Users\\MAX\\Desktop\\Dev\\.NET-WPF\\DesktopContactsApp\\DesktopContactsApp\\Classes\\Contact.cs",
               "RelativeDocumentMoniker": "DesktopContactsApp\\Classes\\Contact.cs",
@@ -100,83 +151,7 @@
               "RelativeToolTip": "DesktopContactsApp\\Classes\\Contact.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-07T18:57:29.196Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "App.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\MAX\\Desktop\\Dev\\.NET-WPF\\DesktopContactsApp\\DesktopContactsApp\\App.xaml.cs",
-              "RelativeDocumentMoniker": "DesktopContactsApp\\App.xaml.cs",
-              "ToolTip": "C:\\Users\\MAX\\Desktop\\Dev\\.NET-WPF\\DesktopContactsApp\\DesktopContactsApp\\App.xaml.cs",
-              "RelativeToolTip": "DesktopContactsApp\\App.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAPAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-07T19:32:33.522Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "NewContactWindow.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\MAX\\Desktop\\Dev\\.NET-WPF\\DesktopContactsApp\\DesktopContactsApp\\NewContactWindow.xaml.cs",
-              "RelativeDocumentMoniker": "DesktopContactsApp\\NewContactWindow.xaml.cs",
-              "ToolTip": "C:\\Users\\MAX\\Desktop\\Dev\\.NET-WPF\\DesktopContactsApp\\DesktopContactsApp\\NewContactWindow.xaml.cs",
-              "RelativeToolTip": "DesktopContactsApp\\NewContactWindow.xaml.cs",
-              "ViewState": "AgIAABQAAAAAAAAAAAAAABwAAABGAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-07T12:19:28.715Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "MainWindow.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\MAX\\Desktop\\Dev\\.NET-WPF\\DesktopContactsApp\\DesktopContactsApp\\MainWindow.xaml.cs",
-              "RelativeDocumentMoniker": "DesktopContactsApp\\MainWindow.xaml.cs",
-              "ToolTip": "C:\\Users\\MAX\\Desktop\\Dev\\.NET-WPF\\DesktopContactsApp\\DesktopContactsApp\\MainWindow.xaml.cs",
-              "RelativeToolTip": "DesktopContactsApp\\MainWindow.xaml.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAuwBgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-07T12:10:18.492Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ContactDetailsWindow.xaml",
-              "DocumentMoniker": "C:\\Users\\MAX\\Desktop\\Dev\\.NET-WPF\\DesktopContactsApp\\DesktopContactsApp\\ContactDetailsWindow.xaml",
-              "RelativeDocumentMoniker": "DesktopContactsApp\\ContactDetailsWindow.xaml",
-              "ToolTip": "C:\\Users\\MAX\\Desktop\\Dev\\.NET-WPF\\DesktopContactsApp\\DesktopContactsApp\\ContactDetailsWindow.xaml",
-              "RelativeToolTip": "DesktopContactsApp\\ContactDetailsWindow.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-08-08T15:12:05.303Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "MainWindow.xaml",
-              "DocumentMoniker": "C:\\Users\\MAX\\Desktop\\Dev\\.NET-WPF\\DesktopContactsApp\\DesktopContactsApp\\MainWindow.xaml",
-              "RelativeDocumentMoniker": "DesktopContactsApp\\MainWindow.xaml",
-              "ToolTip": "C:\\Users\\MAX\\Desktop\\Dev\\.NET-WPF\\DesktopContactsApp\\DesktopContactsApp\\MainWindow.xaml*",
-              "RelativeToolTip": "DesktopContactsApp\\MainWindow.xaml*",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-08-07T12:10:19.81Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "NewContactWindow.xaml",
-              "DocumentMoniker": "C:\\Users\\MAX\\Desktop\\Dev\\.NET-WPF\\DesktopContactsApp\\DesktopContactsApp\\NewContactWindow.xaml",
-              "RelativeDocumentMoniker": "DesktopContactsApp\\NewContactWindow.xaml",
-              "ToolTip": "C:\\Users\\MAX\\Desktop\\Dev\\.NET-WPF\\DesktopContactsApp\\DesktopContactsApp\\NewContactWindow.xaml",
-              "RelativeToolTip": "DesktopContactsApp\\NewContactWindow.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-08-07T12:14:41.779Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-07T18:57:29.196Z"
             }
           ]
         }
