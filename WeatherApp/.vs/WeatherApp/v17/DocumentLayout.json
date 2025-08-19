@@ -1,0 +1,119 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\MAX\\Desktop\\WeatherApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7033D52A-90DC-48A1-B834-AA4381A4F81E}|WeatherApp\\WeatherApp.csproj|c:\\users\\max\\desktop\\weatherapp\\weatherapp\\view\\weatherwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{7033D52A-90DC-48A1-B834-AA4381A4F81E}|WeatherApp\\WeatherApp.csproj|solutionrelative:weatherapp\\view\\weatherwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7033D52A-90DC-48A1-B834-AA4381A4F81E}|WeatherApp\\WeatherApp.csproj|c:\\users\\max\\desktop\\weatherapp\\weatherapp\\viewmodel\\weathervm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7033D52A-90DC-48A1-B834-AA4381A4F81E}|WeatherApp\\WeatherApp.csproj|solutionrelative:weatherapp\\viewmodel\\weathervm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7033D52A-90DC-48A1-B834-AA4381A4F81E}|WeatherApp\\WeatherApp.csproj|c:\\users\\max\\desktop\\weatherapp\\weatherapp\\viewmodel\\helpers\\accuweatherhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7033D52A-90DC-48A1-B834-AA4381A4F81E}|WeatherApp\\WeatherApp.csproj|solutionrelative:weatherapp\\viewmodel\\helpers\\accuweatherhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7033D52A-90DC-48A1-B834-AA4381A4F81E}|WeatherApp\\WeatherApp.csproj|c:\\users\\max\\desktop\\weatherapp\\weatherapp\\viewmodel\\valueconverters\\booltorainconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7033D52A-90DC-48A1-B834-AA4381A4F81E}|WeatherApp\\WeatherApp.csproj|solutionrelative:weatherapp\\viewmodel\\valueconverters\\booltorainconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7033D52A-90DC-48A1-B834-AA4381A4F81E}|WeatherApp\\WeatherApp.csproj|c:\\users\\max\\desktop\\weatherapp\\weatherapp\\model\\currentconditions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7033D52A-90DC-48A1-B834-AA4381A4F81E}|WeatherApp\\WeatherApp.csproj|solutionrelative:weatherapp\\model\\currentconditions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7033D52A-90DC-48A1-B834-AA4381A4F81E}|WeatherApp\\WeatherApp.csproj|c:\\users\\max\\desktop\\weatherapp\\weatherapp\\model\\city.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7033D52A-90DC-48A1-B834-AA4381A4F81E}|WeatherApp\\WeatherApp.csproj|solutionrelative:weatherapp\\model\\city.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 302,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "BoolToRainConverter.cs",
+              "DocumentMoniker": "C:\\Users\\MAX\\Desktop\\WeatherApp\\WeatherApp\\ViewModel\\ValueConverters\\BoolToRainConverter.cs",
+              "RelativeDocumentMoniker": "WeatherApp\\ViewModel\\ValueConverters\\BoolToRainConverter.cs",
+              "ToolTip": "C:\\Users\\MAX\\Desktop\\WeatherApp\\WeatherApp\\ViewModel\\ValueConverters\\BoolToRainConverter.cs",
+              "RelativeToolTip": "WeatherApp\\ViewModel\\ValueConverters\\BoolToRainConverter.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAACAAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-11T22:06:58.101Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "WeatherWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\MAX\\Desktop\\WeatherApp\\WeatherApp\\View\\WeatherWindow.xaml",
+              "RelativeDocumentMoniker": "WeatherApp\\View\\WeatherWindow.xaml",
+              "ToolTip": "C:\\Users\\MAX\\Desktop\\WeatherApp\\WeatherApp\\View\\WeatherWindow.xaml",
+              "RelativeToolTip": "WeatherApp\\View\\WeatherWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-08-11T12:08:20.898Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "WeatherVM.cs",
+              "DocumentMoniker": "C:\\Users\\MAX\\Desktop\\WeatherApp\\WeatherApp\\ViewModel\\WeatherVM.cs",
+              "RelativeDocumentMoniker": "WeatherApp\\ViewModel\\WeatherVM.cs",
+              "ToolTip": "C:\\Users\\MAX\\Desktop\\WeatherApp\\WeatherApp\\ViewModel\\WeatherVM.cs",
+              "RelativeToolTip": "WeatherApp\\ViewModel\\WeatherVM.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-11T13:52:51.454Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AccuWeatherHelper.cs",
+              "DocumentMoniker": "C:\\Users\\MAX\\Desktop\\WeatherApp\\WeatherApp\\ViewModel\\Helpers\\AccuWeatherHelper.cs",
+              "RelativeDocumentMoniker": "WeatherApp\\ViewModel\\Helpers\\AccuWeatherHelper.cs",
+              "ToolTip": "C:\\Users\\MAX\\Desktop\\WeatherApp\\WeatherApp\\ViewModel\\Helpers\\AccuWeatherHelper.cs",
+              "RelativeToolTip": "WeatherApp\\ViewModel\\Helpers\\AccuWeatherHelper.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAkwBcAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-11T10:44:23.311Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CurrentConditions.cs",
+              "DocumentMoniker": "C:\\Users\\MAX\\Desktop\\WeatherApp\\WeatherApp\\Model\\CurrentConditions.cs",
+              "RelativeDocumentMoniker": "WeatherApp\\Model\\CurrentConditions.cs",
+              "ToolTip": "C:\\Users\\MAX\\Desktop\\WeatherApp\\WeatherApp\\Model\\CurrentConditions.cs",
+              "RelativeToolTip": "WeatherApp\\Model\\CurrentConditions.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAwwAoAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-11T10:27:33.626Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "City.cs",
+              "DocumentMoniker": "C:\\Users\\MAX\\Desktop\\WeatherApp\\WeatherApp\\Model\\City.cs",
+              "RelativeDocumentMoniker": "WeatherApp\\Model\\City.cs",
+              "ToolTip": "C:\\Users\\MAX\\Desktop\\WeatherApp\\WeatherApp\\Model\\City.cs",
+              "RelativeToolTip": "WeatherApp\\Model\\City.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAqwA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-11T10:23:24.144Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

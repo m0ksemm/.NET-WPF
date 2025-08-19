@@ -61,11 +61,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\MAX\\Desktop\\LandmarkAI\\LandmarkAI\\LandmarkAI.csproj",
+      "projectUniqueName": "C:\\Users\\MAX\\Desktop\\Dev\\.NET-WPF\\LandmarkAI\\LandmarkAI\\LandmarkAI.csproj",
       "projectName": "LandmarkAI",
-      "projectPath": "C:\\Users\\MAX\\Desktop\\LandmarkAI\\LandmarkAI\\LandmarkAI.csproj",
+      "projectPath": "C:\\Users\\MAX\\Desktop\\Dev\\.NET-WPF\\LandmarkAI\\LandmarkAI\\LandmarkAI.csproj",
       "packagesPath": "C:\\Users\\MAX\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\MAX\\Desktop\\LandmarkAI\\LandmarkAI\\obj\\",
+      "outputPath": "C:\\Users\\MAX\\Desktop\\Dev\\.NET-WPF\\LandmarkAI\\LandmarkAI\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
