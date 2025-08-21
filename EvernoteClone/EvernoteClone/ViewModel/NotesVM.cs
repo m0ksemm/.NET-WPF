@@ -5,10 +5,13 @@ using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.ComponentModel;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows;
+using System.Windows.Controls;
+using System.Windows.Documents;
 
 namespace EvernoteClone.ViewModel
 {
@@ -30,17 +33,27 @@ namespace EvernoteClone.ViewModel
         }
 
         private Note selectedNote;
-
         public Note SelectedNote
         {
-            get { return selectedNote; }
-            set 
-            { 
-                selectedNote = value;
-                OnPropertyChanged(nameof(SelectedNote));
-                SelectedNoteChanged?.Invoke(this, new EventArgs());
+            get => selectedNote;
+            set
+            {
+                if (selectedNote != value)
+                {
+                    selectedNote = value;
+                    OnPropertyChanged(nameof(SelectedNote));
+
+                    SelectedNoteChanged?.Invoke(this, EventArgs.Empty);
+
+                    // одразу підтягуємо вміст
+
+                }
             }
         }
+
+
+
+
 
         private Visibility isVisibile;
 
@@ -60,6 +73,7 @@ namespace EvernoteClone.ViewModel
         public NewNoteCommand NewNoteCommand { get; set; }
         public EditCommand EditCommand { get; set; }
         public EndEditingCommand EndEditingCommand { get; set; }
+        public SaveNoteCommand SaveNoteCommand { get; set; }
 
         public event PropertyChangedEventHandler? PropertyChanged;
         public event EventHandler SelectedNoteChanged;
@@ -70,6 +84,7 @@ namespace EvernoteClone.ViewModel
             NewNoteCommand = new NewNoteCommand(this);
             EditCommand = new EditCommand(this);
             EndEditingCommand = new EndEditingCommand(this);
+            SaveNoteCommand = new SaveNoteCommand(this);
 
             Notebooks = new ObservableCollection<Notebook>();
             Notes = new ObservableCollection<Note>();
@@ -133,6 +148,9 @@ namespace EvernoteClone.ViewModel
                 if (notes == null) return;
                 List<Note>? notesSorted = notes.Where(n => n.NotebookId == SelectedNotebook.Id).ToList();
                 Notes.Clear();
+
+                SelectedNote = null;
+
                 foreach (var note in notesSorted)
                 {
                     Notes.Add(note);
@@ -155,6 +173,49 @@ namespace EvernoteClone.ViewModel
             IsVisibile = Visibility.Collapsed;
             DatabaseHelper.Update(notebook);
             GetNotebooks();
+        }
+
+        public void SaveNote() 
+        {
+            if (SelectedNote == null) return;
+
+            try
+            {
+                DatabaseHelper.Update(SelectedNote);
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"Error saving note: {ex.Message}");
+            }
+        }
+
+        private void LoadNoteContent()
+        {
+            if (SelectedNote == null)
+            {
+                // немає вибраної нотатки → RichTextBox очищається
+                //SelectedNoteContentRtf = string.Empty;
+                return;
+            }
+
+            if (!string.IsNullOrEmpty(SelectedNote.Content) && File.Exists(SelectedNote.Content))
+            {
+                try
+                {
+                    using var fs = new FileStream(SelectedNote.Content, FileMode.Open, FileAccess.Read);
+                    using var reader = new StreamReader(fs);
+                    //SelectedNoteContentRtf = reader.ReadToEnd(); // сюди кладемо вміст RTF-файлу
+                }
+                catch
+                {
+                   // SelectedNoteContentRtf = string.Empty; // fallback
+                }
+            }
+            else
+            {
+                // якщо ще немає вмісту → RichTextBox чистий
+               // SelectedNoteContentRtf = string.Empty;
+            }
         }
     }
 }

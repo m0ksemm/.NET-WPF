@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\MAX\Desktop\EvernoteClone\EvernoteClone\obj\Debug\net9.0-windows\
+C:\Users\MAX\Desktop\Dev\.NET-WPF\EvernoteClone\EvernoteClone\obj\Debug\net9.0-windows\
 EvernoteClone
 none
 false
 TRACE;DEBUG;NET;NET9_0;NETCOREAPP;WINDOWS;WINDOWS7_0;NET5_0_OR_GREATER;NET6_0_OR_GREATER;NET7_0_OR_GREATER;NET8_0_OR_GREATER;NET9_0_OR_GREATER;NETCOREAPP3_0_OR_GREATER;NETCOREAPP3_1_OR_GREATER;WINDOWS7_0_OR_GREATER
-C:\Users\MAX\Desktop\EvernoteClone\EvernoteClone\App.xaml
+C:\Users\MAX\Desktop\Dev\.NET-WPF\EvernoteClone\EvernoteClone\App.xaml
 41358962761
 22138989734
-222081215461
+241477270069
 220552466908
 View\LoginWindow.xaml;View\NotesWindow.xaml;View\UserControls\DisplayNote.xaml;View\UserControls\DisplayNotebook.xaml;
 
-False
+True
 

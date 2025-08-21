@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "JZpdA8y4/lk=",
+  "dgSpecHash": "R5c1g0+flgI=",
   "success": true,
-  "projectFilePath": "C:\\Users\\MAX\\Desktop\\EvernoteClone\\EvernoteClone\\EvernoteClone.csproj",
+  "projectFilePath": "C:\\Users\\MAX\\Desktop\\Dev\\.NET-WPF\\EvernoteClone\\EvernoteClone\\EvernoteClone.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\MAX\\.nuget\\packages\\azure.core\\1.44.1\\azure.core.1.44.1.nupkg.sha512",
     "C:\\Users\\MAX\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\6.0.0\\microsoft.bcl.asyncinterfaces.6.0.0.nupkg.sha512",

@@ -138,6 +138,7 @@ C:\Users\MAX\Desktop\EvernoteClone\EvernoteClone\obj\Debug\net9.0-windows\View\U
 C:\Users\MAX\Desktop\EvernoteClone\EvernoteClone\obj\Debug\net9.0-windows\View\UserControls\DisplayNote.baml
 C:\Users\MAX\Desktop\EvernoteClone\EvernoteClone\bin\Debug\net9.0-windows\Microsoft.Xaml.Behaviors.dll
 C:\Users\MAX\Desktop\EvernoteClone\EvernoteClone\bin\Debug\net9.0-windows\Newtonsoft.Json.dll
+C:\Users\MAX\Desktop\Dev\.NET-WPF\EvernoteClone\EvernoteClone\bin\Debug\net9.0-windows\appsettings.json
 C:\Users\MAX\Desktop\Dev\.NET-WPF\EvernoteClone\EvernoteClone\bin\Debug\net9.0-windows\AssemblyInfo.cs
 C:\Users\MAX\Desktop\Dev\.NET-WPF\EvernoteClone\EvernoteClone\bin\Debug\net9.0-windows\EvernoteClone.exe
 C:\Users\MAX\Desktop\Dev\.NET-WPF\EvernoteClone\EvernoteClone\bin\Debug\net9.0-windows\EvernoteClone.deps.json
@@ -290,4 +291,3 @@ C:\Users\MAX\Desktop\Dev\.NET-WPF\EvernoteClone\EvernoteClone\obj\Debug\net9.0-w
 C:\Users\MAX\Desktop\Dev\.NET-WPF\EvernoteClone\EvernoteClone\obj\Debug\net9.0-windows\EvernoteClone.pdb
 C:\Users\MAX\Desktop\Dev\.NET-WPF\EvernoteClone\EvernoteClone\obj\Debug\net9.0-windows\EvernoteClone.genruntimeconfig.cache
 C:\Users\MAX\Desktop\Dev\.NET-WPF\EvernoteClone\EvernoteClone\obj\Debug\net9.0-windows\ref\EvernoteClone.dll
-C:\Users\MAX\Desktop\Dev\.NET-WPF\EvernoteClone\EvernoteClone\bin\Debug\net9.0-windows\appsettings.json

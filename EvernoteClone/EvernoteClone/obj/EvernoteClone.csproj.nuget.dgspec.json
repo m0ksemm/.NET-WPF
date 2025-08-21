@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\MAX\\Desktop\\EvernoteClone\\EvernoteClone\\EvernoteClone.csproj": {}
+    "C:\\Users\\MAX\\Desktop\\Dev\\.NET-WPF\\EvernoteClone\\EvernoteClone\\EvernoteClone.csproj": {}
   },
   "projects": {
-    "C:\\Users\\MAX\\Desktop\\EvernoteClone\\EvernoteClone\\EvernoteClone.csproj": {
+    "C:\\Users\\MAX\\Desktop\\Dev\\.NET-WPF\\EvernoteClone\\EvernoteClone\\EvernoteClone.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\MAX\\Desktop\\EvernoteClone\\EvernoteClone\\EvernoteClone.csproj",
+        "projectUniqueName": "C:\\Users\\MAX\\Desktop\\Dev\\.NET-WPF\\EvernoteClone\\EvernoteClone\\EvernoteClone.csproj",
         "projectName": "EvernoteClone",
-        "projectPath": "C:\\Users\\MAX\\Desktop\\EvernoteClone\\EvernoteClone\\EvernoteClone.csproj",
+        "projectPath": "C:\\Users\\MAX\\Desktop\\Dev\\.NET-WPF\\EvernoteClone\\EvernoteClone\\EvernoteClone.csproj",
         "packagesPath": "C:\\Users\\MAX\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\MAX\\Desktop\\EvernoteClone\\EvernoteClone\\obj\\",
+        "outputPath": "C:\\Users\\MAX\\Desktop\\Dev\\.NET-WPF\\EvernoteClone\\EvernoteClone\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
