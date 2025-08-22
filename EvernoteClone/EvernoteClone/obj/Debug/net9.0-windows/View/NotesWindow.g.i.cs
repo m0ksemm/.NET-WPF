@@ -109,7 +109,7 @@ namespace EvernoteClone.View {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/EvernoteClone;component/view/noteswindow.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/EvernoteClone;V1.0.0.0;component/view/noteswindow.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\View\NotesWindow.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);
