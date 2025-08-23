@@ -1,34 +1,32 @@
-﻿using System;
+﻿using EvernoteClone.Model;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using System.Windows.Controls;
 using System.Windows.Input;
 
 namespace EvernoteClone.ViewModel.Commands
 {
-    public class ToggleBoldCommand : ICommand
+    public class EndEditingNoteTitleCommand : ICommand
     {
         public event EventHandler? CanExecuteChanged;
-        private readonly NotesVM _vm;
-
-        public ToggleBoldCommand(NotesVM vm)
+        public NotesVM NotesVM { get; set; }
+        public EndEditingNoteTitleCommand(NotesVM vm)
         {
-            _vm = vm;
+            NotesVM = vm;
         }
-
         public bool CanExecute(object? parameter)
         {
-            // parameter очікується RichTextBox
-            return parameter is RichTextBox;
+            return true;
         }
 
         public void Execute(object? parameter)
         {
-            if (parameter is RichTextBox rtb)
+            Note note = parameter as Note;
+            if (note != null)
             {
-                //FormattingHelper.ApplyBold(rtb);
+                NotesVM.StopEditingNoteTitle(note);
             }
         }
     }

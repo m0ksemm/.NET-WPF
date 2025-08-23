@@ -55,15 +55,27 @@ namespace EvernoteClone.ViewModel
 
 
 
-        private Visibility isVisibile;
+        private Visibility isNotebookEditorVisibile;
 
-        public Visibility IsVisibile
+        public Visibility IsNotebookEditorVisibile
         {
-            get { return isVisibile; }
+            get { return isNotebookEditorVisibile; }
             set
             {
-                isVisibile = value;
-                OnPropertyChanged(nameof(IsVisibile));
+                isNotebookEditorVisibile = value;
+                OnPropertyChanged(nameof(IsNotebookEditorVisibile));
+            }
+        }
+
+        private Visibility isNoteEditorVisibile;
+
+        public Visibility IsNoteEditorVisibile
+        {
+            get { return isNoteEditorVisibile; }
+            set
+            {
+                isNoteEditorVisibile = value;
+                OnPropertyChanged(nameof(IsNoteEditorVisibile));
             }
         }
 
@@ -74,6 +86,8 @@ namespace EvernoteClone.ViewModel
         public EditCommand EditCommand { get; set; }
         public EndEditingCommand EndEditingCommand { get; set; }
         public SaveNoteCommand SaveNoteCommand { get; set; }
+        public EditNoteTitleCommand EditNoteTitleCommand { get; set; }
+        public EndEditingNoteTitleCommand EndEditingNoteTitleCommand { get; set; }
 
         public event PropertyChangedEventHandler? PropertyChanged;
         public event EventHandler SelectedNoteChanged;
@@ -86,11 +100,14 @@ namespace EvernoteClone.ViewModel
             EndEditingCommand = new EndEditingCommand(this);
             SaveNoteCommand = new SaveNoteCommand(this);
 
+            EditNoteTitleCommand = new EditNoteTitleCommand(this);
+            EndEditingNoteTitleCommand = new EndEditingNoteTitleCommand(this);
+
             Notebooks = new ObservableCollection<Notebook>();
             Notes = new ObservableCollection<Note>();
 
-            IsVisibile = Visibility.Collapsed;
-
+            IsNotebookEditorVisibile = Visibility.Collapsed;
+            IsNoteEditorVisibile = Visibility.Collapsed;
             //GetNotebooks();
         }
 
@@ -165,13 +182,25 @@ namespace EvernoteClone.ViewModel
 
         public void StartEditing()
         {
-            IsVisibile = Visibility.Visible;
+            IsNotebookEditorVisibile = Visibility.Visible;
         }
 
         public void StopEditing(Notebook notebook)
         {
-            IsVisibile = Visibility.Collapsed;
+            IsNotebookEditorVisibile = Visibility.Collapsed;
             DatabaseHelper.Update(notebook);
+            GetNotebooks();
+        }
+
+        public void EditNoteTitle()
+        {
+            IsNoteEditorVisibile = Visibility.Visible;
+        }
+
+        public void StopEditingNoteTitle(Note note)
+        {
+            IsNoteEditorVisibile = Visibility.Collapsed;
+            DatabaseHelper.Update(note);
             GetNotebooks();
         }
 
@@ -189,33 +218,6 @@ namespace EvernoteClone.ViewModel
             }
         }
 
-        private void LoadNoteContent()
-        {
-            if (SelectedNote == null)
-            {
-                // немає вибраної нотатки → RichTextBox очищається
-                //SelectedNoteContentRtf = string.Empty;
-                return;
-            }
-
-            if (!string.IsNullOrEmpty(SelectedNote.Content) && File.Exists(SelectedNote.Content))
-            {
-                try
-                {
-                    using var fs = new FileStream(SelectedNote.Content, FileMode.Open, FileAccess.Read);
-                    using var reader = new StreamReader(fs);
-                    //SelectedNoteContentRtf = reader.ReadToEnd(); // сюди кладемо вміст RTF-файлу
-                }
-                catch
-                {
-                   // SelectedNoteContentRtf = string.Empty; // fallback
-                }
-            }
-            else
-            {
-                // якщо ще немає вмісту → RichTextBox чистий
-               // SelectedNoteContentRtf = string.Empty;
-            }
-        }
+   
     }
 }
