@@ -9,16 +9,16 @@ using System.Windows.Input;
 
 namespace EvernoteClone.ViewModel.Commands
 {
-    public class ToggleBoldCommand : ICommand
+    public class ToggleItalicCommand : ICommand
     {
         public event EventHandler? CanExecuteChanged;
         private readonly NotesVM _vm;
-        public ToggleBoldCommand(NotesVM vm) => _vm = vm;
+        public ToggleItalicCommand(NotesVM vm) => _vm = vm;
         public bool CanExecute(object? parameter) => parameter is RichTextBox;
         public void Execute(object? parameter)
         {
             if (parameter is RichTextBox rtb)
-                FormattingHelper.ToggleBold(rtb);
+                FormattingHelper.ToggleItalic(rtb);
         }
     }
 }

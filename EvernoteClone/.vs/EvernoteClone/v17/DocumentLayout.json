@@ -3,44 +3,52 @@
   "WorkspaceRootPath": "C:\\Users\\MAX\\Desktop\\Dev\\.NET-WPF\\EvernoteClone\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1A1B135F-BEDF-4972-905D-B33FA4B91F82}|EvernoteClone\\EvernoteClone.csproj|c:\\users\\max\\desktop\\dev\\.net-wpf\\evernoteclone\\evernoteclone\\view\\loginwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1A1B135F-BEDF-4972-905D-B33FA4B91F82}|EvernoteClone\\EvernoteClone.csproj|solutionrelative:evernoteclone\\view\\loginwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1A1B135F-BEDF-4972-905D-B33FA4B91F82}|EvernoteClone\\EvernoteClone.csproj|c:\\users\\max\\desktop\\dev\\.net-wpf\\evernoteclone\\evernoteclone\\view\\noteswindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1A1B135F-BEDF-4972-905D-B33FA4B91F82}|EvernoteClone\\EvernoteClone.csproj|solutionrelative:evernoteclone\\view\\noteswindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1A1B135F-BEDF-4972-905D-B33FA4B91F82}|EvernoteClone\\EvernoteClone.csproj|c:\\users\\max\\desktop\\dev\\.net-wpf\\evernoteclone\\evernoteclone\\viewmodel\\commands\\toggleboldcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1A1B135F-BEDF-4972-905D-B33FA4B91F82}|EvernoteClone\\EvernoteClone.csproj|solutionrelative:evernoteclone\\viewmodel\\commands\\toggleboldcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1A1B135F-BEDF-4972-905D-B33FA4B91F82}|EvernoteClone\\EvernoteClone.csproj|c:\\users\\max\\desktop\\dev\\.net-wpf\\evernoteclone\\evernoteclone\\view\\noteswindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{1A1B135F-BEDF-4972-905D-B33FA4B91F82}|EvernoteClone\\EvernoteClone.csproj|solutionrelative:evernoteclone\\view\\noteswindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{1A1B135F-BEDF-4972-905D-B33FA4B91F82}|EvernoteClone\\EvernoteClone.csproj|c:\\users\\max\\desktop\\dev\\.net-wpf\\evernoteclone\\evernoteclone\\viewmodel\\helpers\\richtextboxcommandbehavior.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1A1B135F-BEDF-4972-905D-B33FA4B91F82}|EvernoteClone\\EvernoteClone.csproj|solutionrelative:evernoteclone\\viewmodel\\helpers\\richtextboxcommandbehavior.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A1B135F-BEDF-4972-905D-B33FA4B91F82}|EvernoteClone\\EvernoteClone.csproj|c:\\users\\max\\desktop\\dev\\.net-wpf\\evernoteclone\\evernoteclone\\viewmodel\\converters\\fontfamilyconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1A1B135F-BEDF-4972-905D-B33FA4B91F82}|EvernoteClone\\EvernoteClone.csproj|solutionrelative:evernoteclone\\viewmodel\\converters\\fontfamilyconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A1B135F-BEDF-4972-905D-B33FA4B91F82}|EvernoteClone\\EvernoteClone.csproj|c:\\users\\max\\desktop\\dev\\.net-wpf\\evernoteclone\\evernoteclone\\view\\behaviors\\richtextboxcommandbehavior.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1A1B135F-BEDF-4972-905D-B33FA4B91F82}|EvernoteClone\\EvernoteClone.csproj|solutionrelative:evernoteclone\\view\\behaviors\\richtextboxcommandbehavior.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{1A1B135F-BEDF-4972-905D-B33FA4B91F82}|EvernoteClone\\EvernoteClone.csproj|c:\\users\\max\\desktop\\dev\\.net-wpf\\evernoteclone\\evernoteclone\\viewmodel\\notesvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1A1B135F-BEDF-4972-905D-B33FA4B91F82}|EvernoteClone\\EvernoteClone.csproj|solutionrelative:evernoteclone\\viewmodel\\notesvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1A1B135F-BEDF-4972-905D-B33FA4B91F82}|EvernoteClone\\EvernoteClone.csproj|c:\\users\\max\\desktop\\dev\\.net-wpf\\evernoteclone\\evernoteclone\\viewmodel\\commands\\endeditingnotetitlecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1A1B135F-BEDF-4972-905D-B33FA4B91F82}|EvernoteClone\\EvernoteClone.csproj|solutionrelative:evernoteclone\\viewmodel\\commands\\endeditingnotetitlecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1A1B135F-BEDF-4972-905D-B33FA4B91F82}|EvernoteClone\\EvernoteClone.csproj|c:\\users\\max\\desktop\\dev\\.net-wpf\\evernoteclone\\evernoteclone\\viewmodel\\commands\\applyfontfamilycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1A1B135F-BEDF-4972-905D-B33FA4B91F82}|EvernoteClone\\EvernoteClone.csproj|solutionrelative:evernoteclone\\viewmodel\\commands\\applyfontfamilycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A1B135F-BEDF-4972-905D-B33FA4B91F82}|EvernoteClone\\EvernoteClone.csproj|c:\\users\\max\\desktop\\dev\\.net-wpf\\evernoteclone\\evernoteclone\\viewmodel\\commands\\applyfontsizecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1A1B135F-BEDF-4972-905D-B33FA4B91F82}|EvernoteClone\\EvernoteClone.csproj|solutionrelative:evernoteclone\\viewmodel\\commands\\applyfontsizecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A1B135F-BEDF-4972-905D-B33FA4B91F82}|EvernoteClone\\EvernoteClone.csproj|c:\\users\\max\\desktop\\dev\\.net-wpf\\evernoteclone\\evernoteclone\\viewmodel\\loginvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1A1B135F-BEDF-4972-905D-B33FA4B91F82}|EvernoteClone\\EvernoteClone.csproj|solutionrelative:evernoteclone\\viewmodel\\loginvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1A1B135F-BEDF-4972-905D-B33FA4B91F82}|EvernoteClone\\EvernoteClone.csproj|c:\\users\\max\\desktop\\dev\\.net-wpf\\evernoteclone\\evernoteclone\\viewmodel\\commands\\editnotetitlecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1A1B135F-BEDF-4972-905D-B33FA4B91F82}|EvernoteClone\\EvernoteClone.csproj|solutionrelative:evernoteclone\\viewmodel\\commands\\editnotetitlecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1A1B135F-BEDF-4972-905D-B33FA4B91F82}|EvernoteClone\\EvernoteClone.csproj|c:\\users\\max\\desktop\\dev\\.net-wpf\\evernoteclone\\evernoteclone\\model\\note.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1A1B135F-BEDF-4972-905D-B33FA4B91F82}|EvernoteClone\\EvernoteClone.csproj|solutionrelative:evernoteclone\\model\\note.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1A1B135F-BEDF-4972-905D-B33FA4B91F82}|EvernoteClone\\EvernoteClone.csproj|c:\\users\\max\\desktop\\dev\\.net-wpf\\evernoteclone\\evernoteclone\\view\\loginwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1A1B135F-BEDF-4972-905D-B33FA4B91F82}|EvernoteClone\\EvernoteClone.csproj|solutionrelative:evernoteclone\\view\\loginwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1A1B135F-BEDF-4972-905D-B33FA4B91F82}|EvernoteClone\\EvernoteClone.csproj|c:\\users\\max\\desktop\\dev\\.net-wpf\\evernoteclone\\evernoteclone\\viewmodel\\commands\\toggleboldcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1A1B135F-BEDF-4972-905D-B33FA4B91F82}|EvernoteClone\\EvernoteClone.csproj|solutionrelative:evernoteclone\\viewmodel\\commands\\toggleboldcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1A1B135F-BEDF-4972-905D-B33FA4B91F82}|EvernoteClone\\EvernoteClone.csproj|c:\\users\\max\\desktop\\dev\\.net-wpf\\evernoteclone\\evernoteclone\\viewmodel\\commands\\editcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1A1B135F-BEDF-4972-905D-B33FA4B91F82}|EvernoteClone\\EvernoteClone.csproj|solutionrelative:evernoteclone\\viewmodel\\commands\\editcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1A1B135F-BEDF-4972-905D-B33FA4B91F82}|EvernoteClone\\EvernoteClone.csproj|c:\\users\\max\\desktop\\dev\\.net-wpf\\evernoteclone\\evernoteclone\\viewmodel\\commands\\endeditingcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1A1B135F-BEDF-4972-905D-B33FA4B91F82}|EvernoteClone\\EvernoteClone.csproj|solutionrelative:evernoteclone\\viewmodel\\commands\\endeditingcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1A1B135F-BEDF-4972-905D-B33FA4B91F82}|EvernoteClone\\EvernoteClone.csproj|c:\\users\\max\\desktop\\dev\\.net-wpf\\evernoteclone\\evernoteclone\\viewmodel\\commands\\toggleunderlinecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1A1B135F-BEDF-4972-905D-B33FA4B91F82}|EvernoteClone\\EvernoteClone.csproj|solutionrelative:evernoteclone\\viewmodel\\commands\\toggleunderlinecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -50,74 +58,115 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
+              "Title": "FontFamilyConverter.cs",
+              "DocumentMoniker": "C:\\Users\\MAX\\Desktop\\Dev\\.NET-WPF\\EvernoteClone\\EvernoteClone\\ViewModel\\Converters\\FontFamilyConverter.cs",
+              "RelativeDocumentMoniker": "EvernoteClone\\ViewModel\\Converters\\FontFamilyConverter.cs",
+              "ToolTip": "C:\\Users\\MAX\\Desktop\\Dev\\.NET-WPF\\EvernoteClone\\EvernoteClone\\ViewModel\\Converters\\FontFamilyConverter.cs",
+              "RelativeToolTip": "EvernoteClone\\ViewModel\\Converters\\FontFamilyConverter.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAcwAsAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-24T20:18:11.465Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "NotesVM.cs",
+              "DocumentMoniker": "C:\\Users\\MAX\\Desktop\\Dev\\.NET-WPF\\EvernoteClone\\EvernoteClone\\ViewModel\\NotesVM.cs",
+              "RelativeDocumentMoniker": "EvernoteClone\\ViewModel\\NotesVM.cs",
+              "ToolTip": "C:\\Users\\MAX\\Desktop\\Dev\\.NET-WPF\\EvernoteClone\\EvernoteClone\\ViewModel\\NotesVM.cs",
+              "RelativeToolTip": "EvernoteClone\\ViewModel\\NotesVM.cs",
+              "ViewState": "AgIAAMoAAAAAAAAAAAAAwPUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-24T20:09:44.385Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "LoginVM.cs",
+              "DocumentMoniker": "C:\\Users\\MAX\\Desktop\\Dev\\.NET-WPF\\EvernoteClone\\EvernoteClone\\ViewModel\\LoginVM.cs",
+              "RelativeDocumentMoniker": "EvernoteClone\\ViewModel\\LoginVM.cs",
+              "ToolTip": "C:\\Users\\MAX\\Desktop\\Dev\\.NET-WPF\\EvernoteClone\\EvernoteClone\\ViewModel\\LoginVM.cs",
+              "RelativeToolTip": "EvernoteClone\\ViewModel\\LoginVM.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-24T20:08:30.71Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ApplyFontSizeCommand.cs",
+              "DocumentMoniker": "C:\\Users\\MAX\\Desktop\\Dev\\.NET-WPF\\EvernoteClone\\EvernoteClone\\ViewModel\\Commands\\ApplyFontSizeCommand.cs",
+              "RelativeDocumentMoniker": "EvernoteClone\\ViewModel\\Commands\\ApplyFontSizeCommand.cs",
+              "ToolTip": "C:\\Users\\MAX\\Desktop\\Dev\\.NET-WPF\\EvernoteClone\\EvernoteClone\\ViewModel\\Commands\\ApplyFontSizeCommand.cs",
+              "RelativeToolTip": "EvernoteClone\\ViewModel\\Commands\\ApplyFontSizeCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-24T20:07:59.278Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ApplyFontFamilyCommand.cs",
+              "DocumentMoniker": "C:\\Users\\MAX\\Desktop\\Dev\\.NET-WPF\\EvernoteClone\\EvernoteClone\\ViewModel\\Commands\\ApplyFontFamilyCommand.cs",
+              "RelativeDocumentMoniker": "EvernoteClone\\ViewModel\\Commands\\ApplyFontFamilyCommand.cs",
+              "ToolTip": "C:\\Users\\MAX\\Desktop\\Dev\\.NET-WPF\\EvernoteClone\\EvernoteClone\\ViewModel\\Commands\\ApplyFontFamilyCommand.cs",
+              "RelativeToolTip": "EvernoteClone\\ViewModel\\Commands\\ApplyFontFamilyCommand.cs",
+              "ViewState": "AgIAAAcAAACAVPIpY94OwBYAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-24T20:07:39.316Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ToggleUnderlineCommand.cs",
+              "DocumentMoniker": "C:\\Users\\MAX\\Desktop\\Dev\\.NET-WPF\\EvernoteClone\\EvernoteClone\\ViewModel\\Commands\\ToggleUnderlineCommand.cs",
+              "RelativeDocumentMoniker": "EvernoteClone\\ViewModel\\Commands\\ToggleUnderlineCommand.cs",
+              "ToolTip": "C:\\Users\\MAX\\Desktop\\Dev\\.NET-WPF\\EvernoteClone\\EvernoteClone\\ViewModel\\Commands\\ToggleUnderlineCommand.cs",
+              "RelativeToolTip": "EvernoteClone\\ViewModel\\Commands\\ToggleUnderlineCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-24T20:07:18.756Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "LoginWindow.xaml.cs",
               "DocumentMoniker": "C:\\Users\\MAX\\Desktop\\Dev\\.NET-WPF\\EvernoteClone\\EvernoteClone\\View\\LoginWindow.xaml.cs",
               "RelativeDocumentMoniker": "EvernoteClone\\View\\LoginWindow.xaml.cs",
               "ToolTip": "C:\\Users\\MAX\\Desktop\\Dev\\.NET-WPF\\EvernoteClone\\EvernoteClone\\View\\LoginWindow.xaml.cs",
               "RelativeToolTip": "EvernoteClone\\View\\LoginWindow.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAjAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-23T22:39:55.759Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "NotesWindow.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\MAX\\Desktop\\Dev\\.NET-WPF\\EvernoteClone\\EvernoteClone\\View\\NotesWindow.xaml.cs",
-              "RelativeDocumentMoniker": "EvernoteClone\\View\\NotesWindow.xaml.cs",
-              "ToolTip": "C:\\Users\\MAX\\Desktop\\Dev\\.NET-WPF\\EvernoteClone\\EvernoteClone\\View\\NotesWindow.xaml.cs",
-              "RelativeToolTip": "EvernoteClone\\View\\NotesWindow.xaml.cs",
-              "ViewState": "AgIAACIAAAAAAAAAAAAowD4AAAAsAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-23T21:04:39.215Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 0,
               "Title": "ToggleBoldCommand.cs",
               "DocumentMoniker": "C:\\Users\\MAX\\Desktop\\Dev\\.NET-WPF\\EvernoteClone\\EvernoteClone\\ViewModel\\Commands\\ToggleBoldCommand.cs",
               "RelativeDocumentMoniker": "EvernoteClone\\ViewModel\\Commands\\ToggleBoldCommand.cs",
               "ToolTip": "C:\\Users\\MAX\\Desktop\\Dev\\.NET-WPF\\EvernoteClone\\EvernoteClone\\ViewModel\\Commands\\ToggleBoldCommand.cs",
               "RelativeToolTip": "EvernoteClone\\ViewModel\\Commands\\ToggleBoldCommand.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAD4vyEAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAwwBAAAAA5AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-23T18:41:07.117Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Note.cs",
-              "DocumentMoniker": "C:\\Users\\MAX\\Desktop\\Dev\\.NET-WPF\\EvernoteClone\\EvernoteClone\\Model\\Note.cs",
-              "RelativeDocumentMoniker": "EvernoteClone\\Model\\Note.cs",
-              "ToolTip": "C:\\Users\\MAX\\Desktop\\Dev\\.NET-WPF\\EvernoteClone\\EvernoteClone\\Model\\Note.cs",
-              "RelativeToolTip": "EvernoteClone\\Model\\Note.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-23T18:35:22.676Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "EndEditingNoteTitleCommand.cs",
-              "DocumentMoniker": "C:\\Users\\MAX\\Desktop\\Dev\\.NET-WPF\\EvernoteClone\\EvernoteClone\\ViewModel\\Commands\\EndEditingNoteTitleCommand.cs",
-              "RelativeDocumentMoniker": "EvernoteClone\\ViewModel\\Commands\\EndEditingNoteTitleCommand.cs",
-              "ToolTip": "C:\\Users\\MAX\\Desktop\\Dev\\.NET-WPF\\EvernoteClone\\EvernoteClone\\ViewModel\\Commands\\EndEditingNoteTitleCommand.cs",
-              "RelativeToolTip": "EvernoteClone\\ViewModel\\Commands\\EndEditingNoteTitleCommand.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABkAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-23T18:24:01.591Z",
+              "WhenOpened": "2025-08-23T18:41:07.117Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 9,
               "Title": "EditNoteTitleCommand.cs",
               "DocumentMoniker": "C:\\Users\\MAX\\Desktop\\Dev\\.NET-WPF\\EvernoteClone\\EvernoteClone\\ViewModel\\Commands\\EditNoteTitleCommand.cs",
               "RelativeDocumentMoniker": "EvernoteClone\\ViewModel\\Commands\\EditNoteTitleCommand.cs",
@@ -125,48 +174,12 @@
               "RelativeToolTip": "EvernoteClone\\ViewModel\\Commands\\EditNoteTitleCommand.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-23T18:21:57.705Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "EditCommand.cs",
-              "DocumentMoniker": "C:\\Users\\MAX\\Desktop\\Dev\\.NET-WPF\\EvernoteClone\\EvernoteClone\\ViewModel\\Commands\\EditCommand.cs",
-              "RelativeDocumentMoniker": "EvernoteClone\\ViewModel\\Commands\\EditCommand.cs",
-              "ToolTip": "C:\\Users\\MAX\\Desktop\\Dev\\.NET-WPF\\EvernoteClone\\EvernoteClone\\ViewModel\\Commands\\EditCommand.cs",
-              "RelativeToolTip": "EvernoteClone\\ViewModel\\Commands\\EditCommand.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAZAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-23T18:22:28.548Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "EndEditingCommand.cs",
-              "DocumentMoniker": "C:\\Users\\MAX\\Desktop\\Dev\\.NET-WPF\\EvernoteClone\\EvernoteClone\\ViewModel\\Commands\\EndEditingCommand.cs",
-              "RelativeDocumentMoniker": "EvernoteClone\\ViewModel\\Commands\\EndEditingCommand.cs",
-              "ToolTip": "C:\\Users\\MAX\\Desktop\\Dev\\.NET-WPF\\EvernoteClone\\EvernoteClone\\ViewModel\\Commands\\EndEditingCommand.cs",
-              "RelativeToolTip": "EvernoteClone\\ViewModel\\Commands\\EndEditingCommand.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAqAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-23T18:21:05.604Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "NotesVM.cs",
-              "DocumentMoniker": "C:\\Users\\MAX\\Desktop\\Dev\\.NET-WPF\\EvernoteClone\\EvernoteClone\\ViewModel\\NotesVM.cs",
-              "RelativeDocumentMoniker": "EvernoteClone\\ViewModel\\NotesVM.cs",
-              "ToolTip": "C:\\Users\\MAX\\Desktop\\Dev\\.NET-WPF\\EvernoteClone\\EvernoteClone\\ViewModel\\NotesVM.cs",
-              "RelativeToolTip": "EvernoteClone\\ViewModel\\NotesVM.cs",
-              "ViewState": "AgIAAEUAAAAAAAAAAAAAAMgAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-21T12:01:00.601Z",
+              "WhenOpened": "2025-08-23T18:21:57.705Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "NotesWindow.xaml",
               "DocumentMoniker": "C:\\Users\\MAX\\Desktop\\Dev\\.NET-WPF\\EvernoteClone\\EvernoteClone\\View\\NotesWindow.xaml",
               "RelativeDocumentMoniker": "EvernoteClone\\View\\NotesWindow.xaml",
@@ -174,6 +187,32 @@
               "RelativeToolTip": "EvernoteClone\\View\\NotesWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2025-08-21T11:55:28.77Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "RichTextBoxCommandBehavior.cs",
+              "DocumentMoniker": "C:\\Users\\MAX\\Desktop\\Dev\\.NET-WPF\\EvernoteClone\\EvernoteClone\\ViewModel\\Helpers\\RichTextBoxCommandBehavior.cs",
+              "RelativeDocumentMoniker": "EvernoteClone\\ViewModel\\Helpers\\RichTextBoxCommandBehavior.cs",
+              "ToolTip": "C:\\Users\\MAX\\Desktop\\Dev\\.NET-WPF\\EvernoteClone\\EvernoteClone\\ViewModel\\Helpers\\RichTextBoxCommandBehavior.cs",
+              "RelativeToolTip": "EvernoteClone\\ViewModel\\Helpers\\RichTextBoxCommandBehavior.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-24T20:39:31.266Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "RichTextBoxCommandBehavior.cs",
+              "DocumentMoniker": "C:\\Users\\MAX\\Desktop\\Dev\\.NET-WPF\\EvernoteClone\\EvernoteClone\\View\\Behaviors\\RichTextBoxCommandBehavior.cs",
+              "RelativeDocumentMoniker": "EvernoteClone\\View\\Behaviors\\RichTextBoxCommandBehavior.cs",
+              "ToolTip": "C:\\Users\\MAX\\Desktop\\Dev\\.NET-WPF\\EvernoteClone\\EvernoteClone\\View\\Behaviors\\RichTextBoxCommandBehavior.cs",
+              "RelativeToolTip": "EvernoteClone\\View\\Behaviors\\RichTextBoxCommandBehavior.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAwAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-24T20:24:53.831Z",
               "EditorCaption": ""
             }
           ]

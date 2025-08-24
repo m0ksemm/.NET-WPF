@@ -8,6 +8,7 @@
         xmlns:vm="clr-namespace:EvernoteClone.ViewModel"
         xmlns:uc="clr-namespace:EvernoteClone.View.UserControls"
         xmlns:hlpr="clr-namespace:EvernoteClone.ViewModel.Helpers"
+        xmlns:bhv="http://schemas.microsoft.com/xaml/behaviors"
         mc:Ignorable="d"
         Title="NotesWindow" Height="600" Width="1000">
 
@@ -121,34 +122,44 @@
             <DockPanel Grid.Column="4">
                 <ToolBarTray DockPanel.Dock="Top">
                     <ToolBar>
-                        <ToggleButton x:Name="boldButton"
-                                      ToolTip="Bold">
+                        <!-- Bold -->
+                        <ToggleButton ToolTip="Bold"
+                          Command="{Binding ToggleBoldCommand}"
+                          CommandParameter="{Binding ElementName=editor}">
                             <TextBlock Text="B" FontWeight="Bold"/>
                         </ToggleButton>
-                        <ToggleButton x:Name="italicButton"
-                                      ToolTip="Italic">
+
+                        <!-- Italic -->
+                        <ToggleButton ToolTip="Italic"
+                          Command="{Binding ToggleItalicCommand}"
+                          CommandParameter="{Binding ElementName=editor}">
                             <TextBlock Text="I" FontStyle="Italic"/>
                         </ToggleButton>
-                        <ToggleButton x:Name="underlinedButton"
-                                      ToolTip="Underline">
+
+                        <!-- Underline -->
+                        <ToggleButton ToolTip="Underline"
+                          Command="{Binding ToggleUnderlineCommand}"
+                          CommandParameter="{Binding ElementName=editor}">
                             <TextBlock Text="U" TextDecorations="Underline"/>
                         </ToggleButton>
-                        <ComboBox x:Name="fontFamilyComboBox"
-                                  Width="120"/>
-                        <ComboBox x:Name="fontSizeComboBox"
-                                  Width="50"
-                                  IsEditable="True"/>
-                        <Button Content="Save" 
-                                Command="{Binding SaveNoteCommand}"/>
+
+                        <!-- Save -->
+                        <Button Content="Save"
+                    Command="{Binding SaveNoteCommand}"/>
                     </ToolBar>
                 </ToolBarTray>
 
+                <!-- Editor -->
                 <RichTextBox x:Name="editor"
-                             AcceptsReturn="True"
-                             AcceptsTab="True"
-                             hlpr:RichTextBoxHelper.BoundRtf="{Binding SelectedNote.Content,
-                                                     Mode=TwoWay,
-                                                     UpdateSourceTrigger=PropertyChanged}" />
+                 AcceptsReturn="True"
+                 AcceptsTab="True"
+                 hlpr:RichTextBoxHelper.BoundRtf="{Binding SelectedNote.Content,
+                                         Mode=TwoWay,
+                                         UpdateSourceTrigger=PropertyChanged}">
+                    <i:Interaction.Behaviors>
+                        <hlpr:RichTextBoxCommandBehavior />
+                    </i:Interaction.Behaviors>
+                </RichTextBox>
             </DockPanel>
         </Grid>
     </DockPanel>

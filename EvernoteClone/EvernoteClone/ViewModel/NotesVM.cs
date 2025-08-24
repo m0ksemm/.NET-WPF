@@ -92,6 +92,13 @@ namespace EvernoteClone.ViewModel
         public event PropertyChangedEventHandler? PropertyChanged;
         public event EventHandler SelectedNoteChanged;
 
+
+        public ToggleBoldCommand ToggleBoldCommand { get; set; }
+        public ToggleItalicCommand ToggleItalicCommand { get; set; }
+        public ToggleUnderlineCommand ToggleUnderlineCommand { get; set; }
+        public ApplyFontFamilyCommand ApplyFontFamilyCommand { get; set; }
+        public ApplyFontSizeCommand ApplyFontSizeCommand { get; set; }
+
         public NotesVM()
         {
             NewNotebookCommand = new NewNotebookCommand(this);
@@ -108,6 +115,17 @@ namespace EvernoteClone.ViewModel
 
             IsNotebookEditorVisibile = Visibility.Collapsed;
             IsNoteEditorVisibile = Visibility.Collapsed;
+
+
+
+
+            ToggleBoldCommand = new ToggleBoldCommand(this);
+            ToggleItalicCommand = new ToggleItalicCommand(this);
+            ToggleUnderlineCommand = new ToggleUnderlineCommand(this);
+            ApplyFontFamilyCommand = new ApplyFontFamilyCommand(this);
+            ApplyFontSizeCommand = new ApplyFontSizeCommand(this);
+
+
             //GetNotebooks();
         }
 
@@ -219,5 +237,9 @@ namespace EvernoteClone.ViewModel
         }
 
    
+
+
+
+
     }
 }

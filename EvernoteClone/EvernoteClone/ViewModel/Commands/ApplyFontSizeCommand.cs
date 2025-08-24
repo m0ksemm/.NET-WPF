@@ -9,16 +9,16 @@ using System.Windows.Input;
 
 namespace EvernoteClone.ViewModel.Commands
 {
-    public class ToggleBoldCommand : ICommand
+    public class ApplyFontSizeCommand : ICommand
     {
         public event EventHandler? CanExecuteChanged;
         private readonly NotesVM _vm;
-        public ToggleBoldCommand(NotesVM vm) => _vm = vm;
-        public bool CanExecute(object? parameter) => parameter is RichTextBox;
+        public ApplyFontSizeCommand(NotesVM vm) => _vm = vm;
+        public bool CanExecute(object? parameter) => parameter is object[];
         public void Execute(object? parameter)
         {
-            if (parameter is RichTextBox rtb)
-                FormattingHelper.ToggleBold(rtb);
+            if (parameter is object[] arr && arr.Length == 2 && arr[0] is RichTextBox rtb && double.TryParse(arr[1]?.ToString(), out double size))
+                FormattingHelper.ApplyFontSize(rtb, size);
         }
     }
 }
