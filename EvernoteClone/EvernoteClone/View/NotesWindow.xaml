@@ -122,26 +122,20 @@
             <DockPanel Grid.Column="4">
                 <ToolBarTray DockPanel.Dock="Top">
                     <ToolBar>
-                        <!-- Bold -->
-                        <ToggleButton ToolTip="Bold"
+                        <ToggleButton Content="B"
+                          IsChecked="{Binding ElementName=editorBehavior, Path=IsBold, Mode=TwoWay}"
                           Command="{Binding ToggleBoldCommand}"
-                          CommandParameter="{Binding ElementName=editor}">
-                            <TextBlock Text="B" FontWeight="Bold"/>
-                        </ToggleButton>
+                          CommandParameter="{Binding ElementName=editor}" />
 
-                        <!-- Italic -->
-                        <ToggleButton ToolTip="Italic"
+                        <ToggleButton Content="I"
+                          IsChecked="{Binding ElementName=editorBehavior, Path=IsItalic, Mode=TwoWay}"
                           Command="{Binding ToggleItalicCommand}"
-                          CommandParameter="{Binding ElementName=editor}">
-                            <TextBlock Text="I" FontStyle="Italic"/>
-                        </ToggleButton>
+                          CommandParameter="{Binding ElementName=editor}" />
 
-                        <!-- Underline -->
-                        <ToggleButton ToolTip="Underline"
+                        <ToggleButton Content="U"
+                          IsChecked="{Binding ElementName=editorBehavior, Path=IsUnderline, Mode=TwoWay}"
                           Command="{Binding ToggleUnderlineCommand}"
-                          CommandParameter="{Binding ElementName=editor}">
-                            <TextBlock Text="U" TextDecorations="Underline"/>
-                        </ToggleButton>
+                          CommandParameter="{Binding ElementName=editor}" />
 
                         <!-- Save -->
                         <Button Content="Save"
@@ -151,13 +145,13 @@
 
                 <!-- Editor -->
                 <RichTextBox x:Name="editor"
-                 AcceptsReturn="True"
-                 AcceptsTab="True"
-                 hlpr:RichTextBoxHelper.BoundRtf="{Binding SelectedNote.Content,
-                                         Mode=TwoWay,
-                                         UpdateSourceTrigger=PropertyChanged}">
+                         AcceptsReturn="True"
+                         AcceptsTab="True"
+                         hlpr:RichTextBoxHelper.BoundRtf="{Binding SelectedNote.Content, 
+                                Mode=TwoWay, 
+                                UpdateSourceTrigger=PropertyChanged}">    
                     <i:Interaction.Behaviors>
-                        <hlpr:RichTextBoxCommandBehavior />
+                        <hlpr:RichTextBoxCommandBehavior x:Name="editorBehavior" />
                     </i:Interaction.Behaviors>
                 </RichTextBox>
             </DockPanel>

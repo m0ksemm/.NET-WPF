@@ -12,6 +12,34 @@ namespace EvernoteClone.ViewModel.Helpers
 {
     public class RichTextBoxCommandBehavior : Behavior<RichTextBox>
     {
+        #region DependencyProperties
+
+        public bool IsBold
+        {
+            get => (bool)GetValue(IsBoldProperty);
+            set => SetValue(IsBoldProperty, value);
+        }
+        public static readonly DependencyProperty IsBoldProperty =
+            DependencyProperty.Register(nameof(IsBold), typeof(bool), typeof(RichTextBoxCommandBehavior), new PropertyMetadata(false));
+
+        public bool IsItalic
+        {
+            get => (bool)GetValue(IsItalicProperty);
+            set => SetValue(IsItalicProperty, value);
+        }
+        public static readonly DependencyProperty IsItalicProperty =
+            DependencyProperty.Register(nameof(IsItalic), typeof(bool), typeof(RichTextBoxCommandBehavior), new PropertyMetadata(false));
+
+        public bool IsUnderline
+        {
+            get => (bool)GetValue(IsUnderlineProperty);
+            set => SetValue(IsUnderlineProperty, value);
+        }
+        public static readonly DependencyProperty IsUnderlineProperty =
+            DependencyProperty.Register(nameof(IsUnderline), typeof(bool), typeof(RichTextBoxCommandBehavior), new PropertyMetadata(false));
+
+        #endregion
+
         protected override void OnAttached()
         {
             base.OnAttached();
@@ -26,24 +54,22 @@ namespace EvernoteClone.ViewModel.Helpers
 
         private void OnSelectionChanged(object sender, RoutedEventArgs e)
         {
-            // Тут можна оновлювати DP або викликати команди, якщо захочеш.
-            // Напр., зчитати поточні стилі вибірки:
             var rtb = AssociatedObject;
             if (rtb == null) return;
 
             TextRange tr = new TextRange(rtb.Selection.Start, rtb.Selection.End);
 
-            // приклад читання властивостей (на майбутнє):
+            // Bold
             object w = tr.GetPropertyValue(TextElement.FontWeightProperty);
-            bool isBold = w != DependencyProperty.UnsetValue && (FontWeight)w == FontWeights.Bold;
+            IsBold = (w != DependencyProperty.UnsetValue && (FontWeight)w == FontWeights.Bold);
 
+            // Italic
             object s = tr.GetPropertyValue(TextElement.FontStyleProperty);
-            bool isItalic = s != DependencyProperty.UnsetValue && (FontStyle)s == FontStyles.Italic;
+            IsItalic = (s != DependencyProperty.UnsetValue && (FontStyle)s == FontStyles.Italic);
 
+            // Underline
             object d = tr.GetPropertyValue(Inline.TextDecorationsProperty);
-            bool isUnderline = d != DependencyProperty.UnsetValue && d is TextDecorationCollection tdc && tdc == TextDecorations.Underline;
-
-            // за необхідності – пробросити ці значення кудись через DependencyProperty
+            IsUnderline = (d != DependencyProperty.UnsetValue && d is TextDecorationCollection tdc && tdc == TextDecorations.Underline);
         }
     }
 }
