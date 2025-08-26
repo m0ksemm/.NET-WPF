@@ -5,6 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Controls;
+using System.Windows.Documents;
 using System.Windows.Input;
 
 namespace EvernoteClone.ViewModel.Commands
@@ -12,13 +13,25 @@ namespace EvernoteClone.ViewModel.Commands
     public class ApplyFontSizeCommand : ICommand
     {
         public event EventHandler? CanExecuteChanged;
-        private readonly NotesVM _vm;
-        public ApplyFontSizeCommand(NotesVM vm) => _vm = vm;
-        public bool CanExecute(object? parameter) => parameter is object[];
+
+        public bool CanExecute(object? parameter) => true;
+
         public void Execute(object? parameter)
         {
-            if (parameter is object[] arr && arr.Length == 2 && arr[0] is RichTextBox rtb && double.TryParse(arr[1]?.ToString(), out double size))
-                FormattingHelper.ApplyFontSize(rtb, size);
+            if (parameter is object[] values &&
+                values[0] is RichTextBox rtb &&
+                values[1] is double size)
+            {
+                TextSelection selection = rtb.Selection;
+                if (!selection.IsEmpty)
+                {
+                    selection.ApplyPropertyValue(TextElement.FontSizeProperty, size);
+                }
+                else
+                {
+                    rtb.FontSize = size;
+                }
+            }
         }
     }
 }

@@ -137,19 +137,20 @@
                           Command="{Binding ToggleUnderlineCommand}"
                           CommandParameter="{Binding ElementName=editor}" />
 
-                        <!-- Save -->
                         <Button Content="Save"
                     Command="{Binding SaveNoteCommand}"/>
                     </ToolBar>
                 </ToolBarTray>
 
-                <!-- Editor -->
                 <RichTextBox x:Name="editor"
                          AcceptsReturn="True"
                          AcceptsTab="True"
                          hlpr:RichTextBoxHelper.BoundRtf="{Binding SelectedNote.Content, 
                                 Mode=TwoWay, 
-                                UpdateSourceTrigger=PropertyChanged}">    
+                                UpdateSourceTrigger=PropertyChanged}">
+                    <RichTextBox.LayoutTransform>
+                        <ScaleTransform ScaleX="1.5" ScaleY="1.5"/>
+                    </RichTextBox.LayoutTransform>
                     <i:Interaction.Behaviors>
                         <hlpr:RichTextBoxCommandBehavior x:Name="editorBehavior" />
                     </i:Interaction.Behaviors>

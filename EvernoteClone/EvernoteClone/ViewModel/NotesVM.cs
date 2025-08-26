@@ -122,8 +122,8 @@ namespace EvernoteClone.ViewModel
             ToggleBoldCommand = new ToggleBoldCommand(this);
             ToggleItalicCommand = new ToggleItalicCommand(this);
             ToggleUnderlineCommand = new ToggleUnderlineCommand(this);
-            ApplyFontFamilyCommand = new ApplyFontFamilyCommand(this);
-            ApplyFontSizeCommand = new ApplyFontSizeCommand(this);
+            ApplyFontFamilyCommand = new ApplyFontFamilyCommand();
+            ApplyFontSizeCommand = new ApplyFontSizeCommand();
 
 
             //GetNotebooks();
